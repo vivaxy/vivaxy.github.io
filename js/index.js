@@ -5,8 +5,11 @@ var interval = 1000;
 $(document).ready(function(){
 	bg.style.width = window.innerWidth + "px";
 	bg.style.height = window.innerHeight + "px";
-	$("#bg").fadeTo(interval,1).fadeTo(interval,0,function(){changeColor();fade();});
+	fade();
 });
+function fade(){
+	$("#bg").fadeTo(interval,1).fadeTo(interval,0,function(){changeColor();fade();})
+}
 function changeColor(){
 	bg.style.backgroundColor = color[i];
 	i = i+1<color.length && i+1 || 0;
