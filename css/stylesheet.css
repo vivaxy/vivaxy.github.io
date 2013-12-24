@@ -1,11 +1,11 @@
 body {
 	margin: 0px;
-	font-family: Microsoft YaHei;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, "Microsoft YaHei";
 	font-size: 15px;
 }
 
 input {
-	font-family: Microsoft YaHei;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, "Microsoft YaHei";
 	font-size: 15px;
 }
 
@@ -15,8 +15,6 @@ input {
 	color: rgba(255, 255, 255, 1);
 	padding: 3px 20px;
 	text-decoration: none;
-	font-family: Microsoft YaHei;
-	font-size: 15px;
 	text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
 	transition: background-color 300;
 }
@@ -44,7 +42,6 @@ input {
 		display: none;
 	}
 	.navigation ul:after {
-		font-size: 15px;
 		line-height: 30px;
 		text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
 		content: "QQ:919462334";
@@ -55,8 +52,6 @@ input {
 .navigation {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 0px 20px;
-	font-size: 15px;
-	font-family: Microsoft YaHei;
 }
 
 .navigation ul {
@@ -87,8 +82,7 @@ input {
 	width: 150px;
 	line-height: 0px;
 	font-size: 0px;
-	transition: color 0.3s, background-color 0.3s, height 0.3s, line-height
-		0.3s, font-size 0.3s;
+	transition: color 0.3s, background-color 0.3s, height 0.3s, line-height 0.3s, font-size 0.3s;
 	text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
 }
 
