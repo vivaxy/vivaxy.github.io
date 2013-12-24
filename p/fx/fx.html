@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>画函数图像</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="../../css/stylesheet.css" />
+<link type="image/x-icon" rel="shortcut icon" href="../../res/favicon.ico" />
+</head>
+<body style="background-color:#1abc9c;">
+	<script type="text/javascript" src="../../js/navigation.js" charset="utf-8"></script>
+	<div class="body">
+		<div style="padding:2px;">
+			f(x)=<input type="text" id="fInput" value="Math.sin(x)" />
+			<input type="button" id="fButon" class="button" value="画" />
+			<input type="button" id="fShowGrid" class="button" value="关闭网格" />
+			<input type="button" id="fShowCoordinate" class="button" value="关闭坐标" />
+			缩放幅度<input type="range" id="fRatioChange" min="1.01" max="2" step="0.01" value="1.1" style="padding:0px;" />
+			网格大小<span id="fGrid"></span>
+			坐标<span id="fCoordinate"></span>
+		</div>
+		<canvas id="canvas"></canvas>
+		<script type="text/javascript" src="f.js" charset="utf-8"></script>
+	</div>
+	<script type="text/javascript" src="../../js/footer.js" charset="utf-8"></script>
+</body>
+</html>

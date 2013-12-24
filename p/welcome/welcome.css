@@ -1,0 +1,40 @@
+body {
+	background-color: #000000;
+}
+.textArea {
+	position: fixed;
+	text-align: center;
+	color: #ffffff;
+	font-size: 100px;
+	text-shadow: rgba(255,255,255,1) 0px 0px 100px;
+}
+.textArea span {
+	-webkit-animation-name: rock;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+}
+.t1 {
+	-webkit-animation-delay: 0s;
+}
+.t2 {
+	-webkit-animation-delay: 1s;
+}
+.t3 {
+	-webkit-animation-delay: 2s;
+}
+.t4 {
+	-webkit-animation-delay: 3s;
+}
+.t5 {
+	-webkit-animation-delay: 4s;
+}
+.t6 {
+	-webkit-animation-delay: 5s;
+}
+.t7 {
+	-webkit-animation-delay: 6s;
+}
+@-webkit-keyframes rock {
+	0%   {opacity: 0}
+	100% {opacity: 1}
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>QRCode</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="image/x-icon" rel="shortcut icon" href="../../res/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="../../css/stylesheet.css" />
+<script type="text/javascript" src="../../js/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="jquery.qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="text2qrcode.js" charset="utf-8"></script>
+<script type="text/javascript" src="saveAsLocalImage.js" charset="utf-8"></script>
+</head>
+<body style="background-color:#1abc9c;">
+	<script type="text/javascript" src="../../js/navigation.js" charset="utf-8"></script>
+	<div class="header"></div>
+	<div class="body">
+		<div style="padding:20px 100px;">
+		<form action="javascript:t2q('qrcodeCanvas',document.getElementById('txt').value);">
+			<input type="text" id="txt" /> <input type="submit" class="button" value="生成" />
+			<input type="button" class="button" value="下载" onclick="javascript:saveAsLocalImage('qrCanvas');" />
+		</form>
+	<div style="padding:20px 20px;" id="qrcodeCanvas"></div>
+	</div>
+	</div>
+	<script type="text/javascript" src="../../js/footer.js" charset="utf-8"></script>
+</body>
+</html>

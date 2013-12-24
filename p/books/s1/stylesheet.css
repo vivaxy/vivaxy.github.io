@@ -1,0 +1,15 @@
+body {
+	margin: 0px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	margin: 0px;
+	font-family: Microsoft YaHei;
+	font-size: 15px;
+}
+table, td, tr {
+	border-spacing:0px;
+	padding: 0px;
+}
+.block {
+	display: block;
+}
