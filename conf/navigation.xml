@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation>
+	<left>
+		<list>
+			<head><name>TOOLS</name></head>
+			<body><name>QRCode</name><link>../qrcode/qrcode.html</link></body>
+			<body><name>Math function</name><link>../fx/fx.html</link></body>
+		</list>
+		<list>
+			<head><name>GAMES</name></head>
+			<body><name>SNAKE</name><link>../snake/snake.html</link></body>
+			<body><name>Curve</name><link>../quadraticCurve/quadraticCurve.html</link></body>
+			<body><name>Balls</name><link>../ball/ball.html</link></body>
+		</list>
+		<list>
+			<head><name>STYLES</name></head>
+			<body><name>毁一生</name><link>../books/s1/s1.html</link></body>
+			<body><name>Typewriter</name><link>../typewriter/tw.html</link></body>
+			<body><name>WELCOME</name><link>../welcome/welcome.html</link></body>
+			<body><name>Fade</name><link>../fade/test1.html</link></body>
+		</list>
+	</left>
+	<right>
+		<src>../../res/vivaxy.jpg</src><link>../../index.html</link>
+	</right>
+</navigation>

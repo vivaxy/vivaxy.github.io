@@ -1,11 +1,11 @@
 body {
 	margin: 0px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, "Microsoft YaHei";
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, "Microsoft YaHei", sans-serif;
 	font-size: 15px;
 }
 
 input {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, "Microsoft YaHei";
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, "Microsoft YaHei", sans-serif;
 	font-size: 15px;
 }
 

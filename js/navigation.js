@@ -1,26 +1,34 @@
-var navigation = "<div class=\"navigation\">"
-		+ "<ul>"
-		+ "<li><a class=\"a\">TOOLS<span class=\"arrow\"></span></a>"
-		+ "<ul>"
-		+ "<li><a href=\"../qrcode/qrcode.html\">QRCode</a></li>"
-		+ "<li><a href=\"../fx/fx.html\">Math function</a></li>"
-		+ "</ul>"
-		+ "</li>"
-		+ "<li><a class=\"a\">GAMES<span class=\"arrow\"></span></a>"
-		+ "<ul>"
-		+ "<li><a href=\"../snake/snake.html\">SNAKE</a></li>"
-		+ "<li><a href=\"../quadraticCurve/quadraticCurve.html\">Curve</a></li>"
-		+ "<li><a href=\"../ball/ball.html\">BALLS</a></li>"
-		+ "</ul>"
-		+ "</li>"
-		+ "<li><a class=\"a\">STYLES<span class=\"arrow\"></span></a>"
-		+ "<ul>"
-		+ "<li><a href=\"../books/s1/s1.html\">毁一生</a></li>"
-		+ "<li><a href=\"../typewriter/tw.html\">Typewriter</a></li>"
-		+ "<li><a href=\"../welcome/welcome.html\">WELCOME</a></li>"
-		+ "</ul>"
-		+ "</li>"
-		+ "<li class=\"right a\"><a href=\"../../index.html\" style=\"width:30px;\"><img src=\"../../res/vivaxy.jpg\" height=\"30px\"></a></li>"
-		+ "</ul>"
-		+ "</div>";
-document.write(navigation);
+var xmlhttp=new XMLHttpRequest();
+xmlhttp.open("GET","/conf/navigation.xml",false);
+xmlhttp.send();
+var xmlDoc=xmlhttp.responseXML;
+var left = xmlDoc.getElementsByTagName("navigation")[0].getElementsByTagName("left")[0];
+document.write("<div class=\"navigation\"><ul>");
+var list = left.getElementsByTagName("list");
+for (var i=0;i<list.length;i++){
+	var head = list[i].getElementsByTagName("head")[0];
+	var n = head.getElementsByTagName("name")[0];
+	document.write("<li><a class=\"a\">");
+	document.write(n.childNodes[0].nodeValue);
+	document.write("<span class=\"arrow\"></span></a>");
+	var body = list[i].getElementsByTagName("body");
+	document.write("<ul>");
+	for (var j=0;j<body.length;j++){
+		document.write("<li><a href=\"");
+		l = body[j].getElementsByTagName("link")[0];
+		n = body[j].getElementsByTagName("name")[0];
+		document.write(l.childNodes[0].nodeValue);
+		document.write("\">");
+		document.write(n.childNodes[0].nodeValue);
+		document.write("</a></li>");
+	}
+	document.write("</ul></li>");
+}
+var right = xmlDoc.getElementsByTagName("navigation")[0].getElementsByTagName("right")[0];
+document.write("<li class=\"right a\"><a href=\"");
+document.write(right.getElementsByTagName("link")[0].childNodes[0].nodeValue);
+document.write("\" style=\"width:30px;\"><img src=\"");
+document.write(right.getElementsByTagName("src")[0].childNodes[0].nodeValue);
+document.write("\" height=\"30px\"></a></li>");
+document.write("</ul>");
+document.write("</div>");
