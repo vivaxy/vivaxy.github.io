@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight-50;
+canvas.height = window.innerHeight-70;
 canvas.style.cursor = "url('openhand.cur'),auto";
 var fInput = document.getElementById("fInput");
 var fButon = document.getElementById("fButon");
