@@ -13,3 +13,6 @@ table, td, tr {
 	font-family: Microsoft YaHei;
 	font-size: 15px;
 }
+#body {
+	position: fixed;
+}
