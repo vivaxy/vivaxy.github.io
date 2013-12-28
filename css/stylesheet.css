@@ -11,6 +11,7 @@ body {
 #body {
 	background-color: rgba(0,255,0,0.5);
 	z-index: 0;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px 0px;
 }
 #navigation {
 	width: 50px;
@@ -24,6 +25,8 @@ body {
 	position: fixed;
 	padding: 10px 5px;
 	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0);
+	transition: background-color 0.3s;
 }
 #navigation #btn .line {
 	background-color: rgba(0,0,0,0.5);
@@ -31,10 +34,7 @@ body {
 	height: 3px;
 	margin: 5px 8px;
 	border-radius: 5px;
-	box-shadow: rgba(0,0,0,0.5) 1px 1px 3px;
-}
-.box-shadow {
-	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px 0px;
+	transition: background-color 0.3s;
 }
 #navigation #btn .text {
 	width: 250px;
@@ -44,6 +44,18 @@ body {
 	left: 50px;
 	top: 0px;
 	display: none;
+	color: rgba(0,0,0,1);
+	transition: background-color 0.3s,color 0.3s;
+}
+#navigation #btn:hover {
+	background-color: rgba(41, 128, 185, 1);
+}
+#navigation #btn:hover .text {
+	background-color: rgba(41, 128, 185, 1);
+	color: rgba(255,255,255,1);
+}
+#navigation #btn:hover .line {
+	background-color: rgba(255,255,255,1);
 }
 #navigation #list {
 	position: relative;
@@ -65,8 +77,9 @@ body {
 	text-decoration: none;
 	padding-left: 20px;
 	color: rgba(0,0,0,1);
-	transition: background-color 0.3s;
+	transition: background-color 0.3s,color 0.3s;
 }
 #navigation #list ul li a:hover {
 	background-color: rgba(41, 128, 185, 1);
+	color: rgba(255,255,255,1);
 }
