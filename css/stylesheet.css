@@ -5,7 +5,7 @@ body {
 	font-size: 24px;
 	line-height: 50px;
 	font-weight: 100;
-	overflow-x: hidden;
+	overflow: hidden;
 	background-color: rgba(0,0,0,0.1);
 }
 #body {
