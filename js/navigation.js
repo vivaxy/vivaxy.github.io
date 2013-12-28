@@ -36,7 +36,7 @@ $(document).ready(function () {
 				width : 300,
 				height : window.innerHeight,
 			});
-			$("#body").animate({left : 300}, 200, function () {
+			$("#body").animate({left : 300}, 300, function () {
 				$("#navigation #list").css({display:"block"});
 				$("#navigation .text").css({display:"block"});
 				var listC = 0;
@@ -51,7 +51,6 @@ $(document).ready(function () {
 				width : 50,
 				height : 50,
 			});
-			
 			$("#body").css({zIndex:100}).animate({left : 0}, 300, function () {
 				ns = 0;
 				$("#navigation .text").css({display:"none"});
