@@ -6,13 +6,13 @@ body {
 	line-height: 50px;
 	font-weight: 100;
 	overflow-x: hidden;
+	background-color: rgba(0,0,0,0.1);
 }
 #body {
 	background-color: rgba(0,255,0,0.5);
 	z-index: 0;
 }
 #navigation {
-	background-color: rgba(0,0,0,0.1);
 	width: 50px;
 	height: 50px;
 	position: fixed;
