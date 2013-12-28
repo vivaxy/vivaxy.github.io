@@ -1,10 +1,6 @@
 body {
 	margin: 0px;
-	overflow-x:hidden;
-	overflow-y:hidden;
-	margin: 0px;
-	font-family: Microsoft YaHei;
-	font-size: 15px;
+	overflow:hidden;
 }
 table, td, tr {
 	border-spacing:0px;
@@ -12,4 +8,8 @@ table, td, tr {
 }
 .block {
 	display: block;
+}
+.menu {
+	font-family: Microsoft YaHei;
+	font-size: 15px;
 }
