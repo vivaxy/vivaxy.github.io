@@ -1,5 +1,6 @@
 var divStyle = document.getElementById("option").style;
-divStyle.position = "fixed";
+divStyle.position = "relative";
+divStyle.display = "inline";
 divStyle.top = "40px";
 divStyle.left = canvas.width + 26 + "px";
 
