@@ -9,32 +9,77 @@ body {
 	text-shadow: rgba(255,255,255,1) 0px 0px 100px;
 }
 .textArea span {
+	animation-name: rock;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
 	-webkit-animation-name: rock;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
+
+	-ms-animation-name: rock;
+	-ms-animation-duration: 1s;
+	-ms-animation-fill-mode: both;
+
+	-moz-animation-name: rock;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: both;
 }
 .t1 {
+	animation-delay: 0s;
 	-webkit-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	-moz-animation-delay: 0s;
 }
 .t2 {
+	animation-delay: 1s;
 	-webkit-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
 }
 .t3 {
+	animation-delay: 2s;
 	-webkit-animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	-moz-animation-delay: 2s;
 }
 .t4 {
+	animation-delay: 3s;
 	-webkit-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	-moz-animation-delay: 3s;
 }
 .t5 {
+	animation-delay: 4s;
 	-webkit-animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	-moz-animation-delay: 4s;
 }
 .t6 {
+	animation-delay: 5s;
 	-webkit-animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-moz-animation-delay: 5s;
 }
 .t7 {
+	animation-delay: 6s;
 	-webkit-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+}
+@keyframes rock {
+	0%   {opacity: 0}
+	100% {opacity: 1}
 }
 @-webkit-keyframes rock {
+	0%   {opacity: 0}
+	100% {opacity: 1}
+}
+@-ms-keyframes rock {
+	0%   {opacity: 0}
+	100% {opacity: 1}
+}
+@-moz-keyframes rock {
 	0%   {opacity: 0}
 	100% {opacity: 1}
 }
