@@ -24,10 +24,6 @@ document.write("</div>");
 document.write("</div>");
 
 $(document).ready(function () {
-	$("#navigation").css({
-		width : 300,
-		height : window.innerHeight,
-	});
 	$("#body").css({
 		position : "absolute",
 		width : window.innerWidth,
@@ -36,6 +32,10 @@ $(document).ready(function () {
 	var ns = 0;
 	$("#navigation").click(function () {
 		if (ns == 0) {
+			$("#navigation").css({
+				width : 300,
+				height : window.innerHeight,
+			});
 			$("#body").animate({left : 300}, 300, function () {
 				$("#navigation #list").css({display : "block"}).animate({left : 0}, 300, function () {
 					$("#navigation .text").css({display : "block"});
@@ -43,6 +43,10 @@ $(document).ready(function () {
 				});
 			});
 		} else {
+			$("#navigation").css({
+				width : 50,
+				height : 50,
+			});
 			$("#navigation .text").css({display : "none"});
 			$("#navigation #list").animate({left : -300}, 300, function () {
 				$(this).css({display : "none"});
@@ -54,6 +58,10 @@ $(document).ready(function () {
 	});
 	$("#body").click(function () {
 		if (ns == 1) {
+			$("#navigation").css({
+				width : 50,
+				height : 50,
+			});
 			$("#navigation .text").css({display : "none"});
 			$("#navigation #list").animate({left : -300}, 300, function () {
 				$(this).css({display : "none"});
