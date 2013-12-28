@@ -6,7 +6,7 @@ var bg = {
 		y : canvas.offsetTop,
 		width : window.innerWidth,
 		height : window.innerHeight,
-		color : "#ecf0f1",
+		color : "#9b59b6",
 };
 canvas.style.width = bg.width +"px";
 canvas.style.height = bg.height +"px";
@@ -125,7 +125,7 @@ function newBall(){
 			"{x:"+Math.cos(Math.random()*2*Math.PI)+",y:"+Math.sin(Math.random()*2*Math.PI)+",},"+
 			Math.random()+","+
 			(Math.random()*10+5)+","+
-			"\"rgb("+Math.floor(Math.random()*255)+","+Math.floor(Math.random()*255)+","+Math.floor(Math.random()*255)+")\");");
+			"\"rgb("+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+")\");");
 	eval("b"+ballList.length+".init();");
 };
 
