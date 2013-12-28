@@ -36,23 +36,28 @@ $(document).ready(function () {
 				width : 300,
 				height : window.innerHeight,
 			});
-			$("#body").animate({left : 300}, 300, function () {
-				$("#navigation #list").css({display : "block"}).animate({left : 0}, 300, function () {
-					$("#navigation .text").css({display : "block"});
-					ns = 1;
+			$("#body").animate({left : 300}, 200, function () {
+				$("#navigation #list").css({display:"block"});
+				$("#navigation .text").css({display:"block"});
+				var listC = 0;
+				$("#navigation #list ul li").each(function(){
+					$(this).delay(listC*40).animate({left : 0},100);
+					listC = listC + 1;
 				});
+				ns = 1;
 			});
 		} else {
 			$("#navigation").css({
 				width : 50,
 				height : 50,
 			});
-			$("#navigation .text").css({display : "none"});
-			$("#navigation #list").animate({left : -300}, 300, function () {
-				$(this).css({display : "none"});
-				$("#body").animate({left : 0}, 300, function () {
-					ns = 0;
-				});
+			
+			$("#body").css({zIndex:100}).animate({left : 0}, 300, function () {
+				ns = 0;
+				$("#navigation .text").css({display:"none"});
+				$("#navigation #list").css({display:"none"});
+				$("#navigation #list ul li").css({left : -300});
+				$(this).css({zIndex:0});
 			});
 		}
 	});
@@ -62,12 +67,13 @@ $(document).ready(function () {
 				width : 50,
 				height : 50,
 			});
-			$("#navigation .text").css({display : "none"});
-			$("#navigation #list").animate({left : -300}, 300, function () {
-				$(this).css({display : "none"});
-				$("#body").animate({left : 0}, 300, function () {
-					ns = 0;
-				});
+			
+			$("#body").css({zIndex:100}).animate({left : 0}, 300, function () {
+				ns = 0;
+				$("#navigation .text").css({display:"none"});
+				$("#navigation #list").css({display:"none"});
+				$("#navigation #list ul li").css({left : -300});
+				$(this).css({zIndex:0});
 			});
 		}
 	});
