@@ -3,7 +3,7 @@ canvas.style.position = "relative";
 canvas.style.display = "inline";
 canvas.style.left = "50px";
 var ctx = canvas.getContext("2d");
-var body = { width : window.innerWidth - 40, height : window.innerHeight - 100,};
+var body = { width : window.innerWidth-600, height : window.innerHeight,};
 if (body.width > body.height) {
 	canvas.width = canvas.height = body.height;
 } else {
