@@ -1,4 +1,5 @@
 var canvas = document.getElementById("canvas");
+canvas.style.position = "relative";
 canvas.style.left = "50px";
 var ctx = canvas.getContext("2d");
 var body = { width : window.innerWidth - 40, height : window.innerHeight - 100,};
