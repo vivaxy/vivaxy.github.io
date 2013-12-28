@@ -18,13 +18,17 @@ input {
 	font-size: 24px;
 	line-height: 50px;
 	font-weight: 100;
+	padding: 0px;
+	margin: 0;
 }
 .button {
 	background-color: rgba(50, 50, 50, 1);
 	color: rgba(255, 255, 255, 1);
 	border: 0px;
+	margin: 0;
 	text-decoration: none;
 	transition: background-color 0.3s;
+	padding: 0px 10px;
 }
 .button:hover {
 	background-color: rgba(41, 128, 185, 1);
