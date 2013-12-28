@@ -39,7 +39,7 @@ var ball = function(id,pos,dir,speed,radius,color){
 		ballDiv.style.backgroundColor = this.color;
 		ballDiv.style.width = this.radius*2+"px";
 		ballDiv.style.height = this.radius*2+"px";
-		ballDiv.style.position = "fixed";
+		ballDiv.style.position = "absolute";
 		ballDiv.style.left = this.pos.x-this.radius+bg.x+"px";
 		ballDiv.style.top = this.pos.y-this.radius+bg.y+"px";
 		canvas.appendChild(ballDiv);
