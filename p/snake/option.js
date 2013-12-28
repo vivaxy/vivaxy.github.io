@@ -1,8 +1,8 @@
 var divStyle = document.getElementById("option").style;
 divStyle.position = "relative";
 divStyle.display = "inline";
-divStyle.top = -canvas.height + "px";
-divStyle.left = canvas.width + 50 + "px";
+divStyle.top = "50px";
+divStyle.left = "10px";
 
 var restartButton = document.getElementById("restartButton");
 restartButton.addEventListener("mouseup", function(){
