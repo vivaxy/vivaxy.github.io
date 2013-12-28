@@ -34,7 +34,7 @@ $(document).ready(function () {
 		height : window.innerHeight,
 	});
 	var ns = 0;
-	$("#navigation #btn").click(function () {
+	$("body").click(function () {
 		if (ns == 0) {
 			$("#body").animate({left : 300}, 300, function () {
 				$("#navigation #list").css({display : "block"}).animate({left : 0}, 300, function () {
@@ -52,16 +52,4 @@ $(document).ready(function () {
 			});
 		}
 	});
-	$("#body").click(function () {
-		if (ns == 1) {
-			$("#navigation .text").css({display : "none"});
-			$("#navigation #list").animate({left : -300}, 300, function () {
-				$(this).css({display : "none"});
-				$("#body").animate({left : 0}, 300, function () {
-					ns = 0;
-				});
-			});
-		}
-	});
-
 });
