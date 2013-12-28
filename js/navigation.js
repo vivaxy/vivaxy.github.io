@@ -7,7 +7,7 @@ document.write("<div id='btn'>");
 document.write("<div class='line'></div>");
 document.write("<div class='line'></div>");
 document.write("<div class='line'></div>");
-document.write("<div class='text'>MENU</div>");
+document.write("<div class='text'> MENU</div>");
 document.write("</div>");
 document.write("<div id='list'>");
 document.write("<ul>");
@@ -37,7 +37,6 @@ $(document).ready(function () {
 	$("#navigation #btn").click(function () {
 		if (ns == 0) {
 			$("#body").animate({left : 300}, 300, function () {
-				$(this).addClass("box-shadow");
 				$("#navigation #list").css({display : "block"}).animate({left : 0}, 300, function () {
 					$("#navigation .text").css({display : "block"});
 					ns = 1;
@@ -47,7 +46,7 @@ $(document).ready(function () {
 			$("#navigation .text").css({display : "none"});
 			$("#navigation #list").animate({left : -300}, 300, function () {
 				$(this).css({display : "none"});
-				$("#body").removeClass("box-shadow").animate({left : 0}, 300, function () {
+				$("#body").animate({left : 0}, 300, function () {
 					ns = 0;
 				});
 			});
@@ -58,7 +57,7 @@ $(document).ready(function () {
 			$("#navigation .text").css({display : "none"});
 			$("#navigation #list").animate({left : -300}, 300, function () {
 				$(this).css({display : "none"});
-				$("#body").removeClass("box-shadow").animate({left : 0}, 300, function () {
+				$("#body").animate({left : 0}, 300, function () {
 					ns = 0;
 				});
 			});
