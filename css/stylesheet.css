@@ -13,6 +13,22 @@ body {
 	z-index: 0;
 	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px 0px;
 }
+input {
+	font-family: "Microsoft YaHei UI Light", "Microsoft YaHei", sans-serif;
+	font-size: 24px;
+	line-height: 50px;
+	font-weight: 100;
+}
+.button {
+	background-color: rgba(50, 50, 50, 1);
+	color: rgba(255, 255, 255, 1);
+	border: 0px;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+.button:hover {
+	background-color: rgba(41, 128, 185, 1);
+}
 #navigation {
 	width: 50px;
 	height: 50px;
