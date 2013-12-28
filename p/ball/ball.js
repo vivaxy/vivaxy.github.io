@@ -10,12 +10,13 @@ var bg = {
 };
 canvas.style.width = bg.width +"px";
 canvas.style.height = bg.height +"px";
+canvas.style.position = "relative";
 canvas.style.backgroundColor = bg.color;
 var note = document.getElementById("note");
-note.style.position = "fixed";
-note.style.left = bg.x+"px";
-note.style.top = bg.y+"px";
-note.innerHTML = "      左键加球，右键减球";
+note.style.position = "relative";
+note.style.left = "50px";
+note.style.top = "0px";
+note.innerHTML = "左键加球，右键减球";
 var ballList = [];
 var ball = function(id,pos,dir,speed,radius,color){
 	this.id = id;
