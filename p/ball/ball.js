@@ -4,8 +4,8 @@ var canvas = document.getElementById("canvas");
 var bg = {
 		x : canvas.offsetLeft,
 		y : canvas.offsetTop,
-		width : window.innerWidth - 40,
-		height : window.innerHeight - 100,
+		width : window.innerWidth,
+		height : window.innerHeight,
 		color : "#ecf0f1",
 };
 canvas.style.width = bg.width +"px";
@@ -15,7 +15,7 @@ var note = document.getElementById("note");
 note.style.position = "fixed";
 note.style.left = bg.x+"px";
 note.style.top = bg.y+"px";
-note.innerHTML = "左键加球，右键减球";
+note.innerHTML = "      左键加球，右键减球";
 var ballList = [];
 var ball = function(id,pos,dir,speed,radius,color){
 	this.id = id;
