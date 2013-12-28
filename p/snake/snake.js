@@ -1,5 +1,6 @@
 var canvas = document.getElementById("canvas");
 canvas.style.border = "1px solid black";
+canvas.style.left = "50px";
 var ctx = canvas.getContext("2d");
 var body = { width : window.innerWidth - 40, height : window.innerHeight - 100,};
 if (body.width > body.height) {
