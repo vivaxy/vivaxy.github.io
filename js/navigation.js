@@ -7,7 +7,7 @@ document.write("<div id='btn'>");
 document.write("<div class='line'></div>");
 document.write("<div class='line'></div>");
 document.write("<div class='line'></div>");
-document.write("<div class='text'> MENU</div>");
+document.write("<div class='text'>MENU</div>");
 document.write("</div>");
 document.write("<div id='list'>");
 document.write("<ul>");
