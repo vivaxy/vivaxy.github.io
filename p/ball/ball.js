@@ -10,10 +10,10 @@ var bg = {
 };
 canvas.style.width = bg.width +"px";
 canvas.style.height = bg.height +"px";
-canvas.style.position = "relative";
+canvas.style.position = "absolute";
 canvas.style.backgroundColor = bg.color;
 var note = document.getElementById("note");
-note.style.position = "relative";
+note.style.position = "absolute";
 note.style.left = "50px";
 note.style.top = "0px";
 note.innerHTML = "左键加球，右键减球";
