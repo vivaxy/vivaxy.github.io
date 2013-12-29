@@ -2,7 +2,7 @@ var canvas = document.getElementById("canvas");
 canvas.style.position = "relative";
 canvas.style.display = "inline";
 canvas.style.top= "-340px";
-canvas.style.left= "560px;
+canvas.style.left= "560px";
 var ctx = canvas.getContext("2d");
 var body = { width : window.innerWidth-600, height : window.innerHeight,};
 if (body.width > body.height) {
