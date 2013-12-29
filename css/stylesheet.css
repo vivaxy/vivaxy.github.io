@@ -25,6 +25,9 @@ input[type="range"] {
 	height: 20px;
 	width: 100px;
 }
+input[type="number"] {
+	width: 100px;
+}
 .button {
 	background-color: rgba(50, 50, 50, 1);
 	color: rgba(255, 255, 255, 1);
