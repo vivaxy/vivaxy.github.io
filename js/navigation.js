@@ -36,13 +36,14 @@ $(document).ready(function () {
 				width : 300,
 				height : window.innerHeight,
 			});
-			$("#body").animate({left : 300}, 300, function () {
+			$("#body").css({zIndex:100}).animate({left : 300}, 300, function () {
 				$("#navigation .list").css({display:"block"});
 				$("#navigation .text").css({display:"block"});
 				var listC = 0;
 				$("#navigation .list ul li").each(function(){
 					$(this).delay(listC*40).animate({left : 0},100);
 					listC = listC + 1;
+					$("#body").css({zIndex:0});
 				});
 				ns = 1;
 			});
