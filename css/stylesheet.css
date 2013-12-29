@@ -18,6 +18,8 @@ input {
 	font-weight: 100;
 	padding: 0px;
 	margin: 0;
+	height: 50px;
+	border: 0px;
 }
 .button {
 	background-color: rgba(50, 50, 50, 1);
