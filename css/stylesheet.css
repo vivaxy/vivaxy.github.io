@@ -6,10 +6,12 @@ body {
 	line-height: 50px;
 	font-weight: 100;
 	overflow: hidden;
+	background-color: rgba(0,0,0,0.1);
 }
 #body {
 	background-color: #2ecc71;
 	z-index: 0;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 10px 0px;
 }
 input {
 	font-family: "Microsoft YaHei UI Light", "Microsoft YaHei", sans-serif;
@@ -45,8 +47,6 @@ input[type="number"] {
 	height: 50px;
 	position: fixed;
 	z-index: 99;
-	background-color: rgba(0,0,0,0.1);
-	box-shadow: rgba(0,0,0,0.1) 0px 0px 1px 0px inset;
 }
 #navigation .btn {
 	width: 40px;
