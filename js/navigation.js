@@ -3,13 +3,13 @@ xmlhttp.open("GET","/conf/navigation.xml",false);
 xmlhttp.send();
 var xmlDoc=xmlhttp.responseXML;
 document.write("<div id='navigation'>");
-document.write("<div id='btn'>");
+document.write("<div class='btn'>");
 document.write("<div class='line'></div>");
 document.write("<div class='line'></div>");
 document.write("<div class='line'></div>");
 document.write("<div class='text'>MENU</div>");
 document.write("</div>");
-document.write("<div id='list'>");
+document.write("<div class='list'>");
 document.write("<ul>");
 var naviList = xmlDoc.getElementsByTagName("navigation")[0].getElementsByTagName('name');
 for (var i=0;i<naviList.length;i++){
@@ -37,10 +37,10 @@ $(document).ready(function () {
 				height : window.innerHeight,
 			});
 			$("#body").animate({left : 300}, 300, function () {
-				$("#navigation #list").css({display:"block"});
+				$("#navigation .list").css({display:"block"});
 				$("#navigation .text").css({display:"block"});
 				var listC = 0;
-				$("#navigation #list ul li").each(function(){
+				$("#navigation .list ul li").each(function(){
 					$(this).delay(listC*40).animate({left : 0},100);
 					listC = listC + 1;
 				});
@@ -54,8 +54,8 @@ $(document).ready(function () {
 			$("#body").css({zIndex:100}).animate({left : 0}, 300, function () {
 				ns = 0;
 				$("#navigation .text").css({display:"none"});
-				$("#navigation #list").css({display:"none"});
-				$("#navigation #list ul li").css({left : -300});
+				$("#navigation .list").css({display:"none"});
+				$("#navigation .list ul li").css({left : -300});
 				$(this).css({zIndex:0});
 			});
 		}
@@ -70,8 +70,8 @@ $(document).ready(function () {
 			$("#body").css({zIndex:100}).animate({left : 0}, 300, function () {
 				ns = 0;
 				$("#navigation .text").css({display:"none"});
-				$("#navigation #list").css({display:"none"});
-				$("#navigation #list ul li").css({left : -300});
+				$("#navigation .list").css({display:"none"});
+				$("#navigation .list ul li").css({left : -300});
 				$(this).css({zIndex:0});
 			});
 		}
