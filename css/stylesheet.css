@@ -6,7 +6,7 @@ body {
 	line-height: 50px;
 	font-weight: 100;
 	overflow: hidden;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(25,25,25,1);
 }
 #body {
 	background-color: #2ecc71;
