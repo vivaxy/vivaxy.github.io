@@ -6,7 +6,6 @@ body {
 	line-height: 50px;
 	font-weight: 100;
 	overflow: hidden;
-	background-color: rgba(0,0,0,0.1);
 }
 #body {
 	background-color: #2ecc71;
@@ -47,6 +46,7 @@ input[type="number"] {
 	height: 50px;
 	position: fixed;
 	z-index: 99;
+	background-color: rgba(0,0,0,0.1);
 }
 #navigation .btn {
 	width: 40px;
