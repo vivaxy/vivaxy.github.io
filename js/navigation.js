@@ -48,31 +48,24 @@ $(document).ready(function () {
 				ns = 1;
 			});
 		} else {
-			$("#navigation").css({
-				width : 50,
-				height : 50,
-			});
 			$("#body").css({zIndex:100}).animate({left : 0}, 300, function () {
 				ns = 0;
 				$("#navigation .text").css({display:"none"});
 				$("#navigation .list").css({display:"none"});
 				$("#navigation .list ul li").css({left : -300});
+				$("#navigation").css({width : 50,height : 50});
 				$(this).css({zIndex:0});
 			});
 		}
 	});
 	$("#body").click(function () {
 		if (ns == 1) {
-			$("#navigation").css({
-				width : 50,
-				height : 50,
-			});
-			
 			$("#body").css({zIndex:100}).animate({left : 0}, 300, function () {
 				ns = 0;
 				$("#navigation .text").css({display:"none"});
 				$("#navigation .list").css({display:"none"});
 				$("#navigation .list ul li").css({left : -300});
+				$("#navigation").css({width : 50,height : 50});
 				$(this).css({zIndex:0});
 			});
 		}
