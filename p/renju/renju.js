@@ -21,6 +21,8 @@ var placeC = function(classN,x,y){
 	t.style.opacity = 1;
 	var chessPad = document.getElementById("chessPad");
 	chessPad.appendChild(t);
+	t.style.left = x*22+51 + "px";
+	t.style.top = y*22+51 + "px";
 	if (ifWin(classN.substring(1,2),x,y)){
 			chessPad.style.backgroundColor = "rgba(255,255,255,0.8)";
 			chessPad.style.zIndex = "2";
@@ -29,8 +31,6 @@ var placeC = function(classN,x,y){
 				return 0;
 			};
 		};
-	t.style.left = x*22+51;
-	t.style.top = y*22+51;
 	return 0;
 };
 var restart = function(){
@@ -147,8 +147,8 @@ for (var i=0;i<14;i++){
 mousePad.onmousemove = function(e) {
 	var mouseX = e.pageX-this.offsetLeft;
 	var mouseY = e.pageY-this.offsetTop;
-	c.style.left = Math.floor(mouseX/22)*22+60;
-	c.style.top = Math.floor(mouseY/22)*22+60;
+	c.style.left = Math.floor(mouseX/22)*22+60 + "px";
+	c.style.top = Math.floor(mouseY/22)*22+60 + "px";
 };
 mousePad.onclick = function(e){
 	var mouseX = e.pageX-this.offsetLeft;
