@@ -29,8 +29,8 @@ var placeC = function(classN,x,y){
 				return 0;
 			};
 		};
-	t.style.left = x*22+1;
-	t.style.top = y*22+1;
+	t.style.left = x*22+51;
+	t.style.top = y*22+51;
 	return 0;
 };
 var restart = function(){
@@ -39,10 +39,10 @@ var restart = function(){
 		b = b+"0";
 	}
 	setCookie("renju",b,365);
-	document.getElementsByTagName("body")[0].removeChild(document.getElementById("chessPad"));
+	document.getElementById("body").removeChild(document.getElementById("chessPad"));
 	var t = document.createElement("div");
 	t.id = "chessPad";
-	document.getElementsByTagName("body")[0].appendChild(t);
+	document.getElementById("body").appendChild(t);
 	return 0;
 };
 var loadB = function(){
@@ -134,7 +134,7 @@ var ifWin = function(num,x,y){
 var mousePad = document.getElementById("mousePad");
 var c = document.createElement("div");
 c.className = loadB();
-document.getElementsByTagName("body")[0].appendChild(c);
+document.getElementById("body").appendChild(c);
 for (var i=0;i<14;i++){
 	for (var j=0;j<14;j++){
 		var t = document.createElement("div");
@@ -147,8 +147,8 @@ for (var i=0;i<14;i++){
 mousePad.onmousemove = function(e) {
 	var mouseX = e.pageX-this.offsetLeft;
 	var mouseY = e.pageY-this.offsetTop;
-	c.style.left = Math.floor(mouseX/22)*22+10;
-	c.style.top = Math.floor(mouseY/22)*22+10;
+	c.style.left = Math.floor(mouseX/22)*22+60;
+	c.style.top = Math.floor(mouseY/22)*22+60;
 };
 mousePad.onclick = function(e){
 	var mouseX = e.pageX-this.offsetLeft;
