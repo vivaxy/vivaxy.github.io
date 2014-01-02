@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#mousePad {
+	width: 330px;
+	height: 330px;
+	z-index: 1;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	background-color: rgba(0,0,0,0.1);
+}
+#chessPad {
+	width: 330px;
+	height: 330px;
+	z-index: 0;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+}
+.board {
+	margin: 20px;
+	border: 1px solid black;
+	width: 308px;
+	height: 308px;
+	z-index: -1;
+}
+.grid {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid black;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.c1, .c2 {
+	border-radius: 100%;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	margin: 2px;
+	padding: 0px;
+	top: 164px;
+	left: 164px;
+	border: 1px solid black;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 1px 0px;
+	opacity: 0.5;
+}
+.c2 {
+	background-color: white;
+}
+.c1 {
+	background-color: black;
+}
