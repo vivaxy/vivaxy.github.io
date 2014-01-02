@@ -21,6 +21,10 @@
 	width: 308px;
 	height: 308px;
 	z-index: -1;
+	line-height: 0px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
 }
 .grid {
 	margin: 0px;
