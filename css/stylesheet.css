@@ -100,7 +100,7 @@ input[type="number"] {
 #navigation .list ul li {
 	position: relative;
 	left: -300px;
-	box-shadow: rgba(0,0,0,0.5) -2px -1px 1px 0px inset;
+	box-shadow: rgba(0,0,0,0.5) -1px -1px 1px 0px inset;
 }
 #navigation .list ul li a {
 	background-color: rgba(255, 255, 255, 0.5);
