@@ -21,8 +21,8 @@ var placeC = function(classN,x,y){
 	t.style.opacity = 1;
 	var chessPad = document.getElementById("chessPad");
 	chessPad.appendChild(t);
-	t.style.left = x*22+51 + "px";
-	t.style.top = y*22+51 + "px";
+	t.style.left = x*22+1 + "px";
+	t.style.top = y*22+1 + "px";
 	if (ifWin(classN.substring(1,2),x,y)){
 			chessPad.style.backgroundColor = "rgba(255,255,255,0.8)";
 			chessPad.style.zIndex = "2";
