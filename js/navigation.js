@@ -29,6 +29,9 @@ $(document).ready(function () {
 		width : window.innerWidth,
 		height : window.innerHeight,
 	});
+	$("#navigation .list").css({
+		height : window.innerHeight - 50,
+	});
 	var ns = 0;
 	$("#navigation").click(function () {
 		if (ns == 0) {

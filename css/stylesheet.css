@@ -91,6 +91,7 @@ input[type="number"] {
 	position: fixed;
 	top: 50px;
 	display: none;
+	overflow: auto;
 }
 #navigation .list ul {
 	padding: 0;
