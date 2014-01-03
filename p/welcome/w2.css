@@ -9,6 +9,8 @@ body {
 	text-shadow: rgba(255,255,255,1) 0px 0px 100px;
 }
 .textArea span {
+	display: block;
+		
 	animation-name: rotate;
 	animation-duration: 10s;
 	animation-fill-mode: both;
