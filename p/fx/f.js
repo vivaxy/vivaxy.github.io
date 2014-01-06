@@ -140,8 +140,8 @@ var defaultMouseMove = function(e){
 };
 
 redraw();
-fShowGrid.value = f.showGrid && "关闭网格" || "显示网格";
-fShowCoordinate.value = f.showCoordinate && "关闭坐标轴" || "显示坐标轴";
+fShowGrid.value = f.showGrid && "Grid" || "Grid";
+fShowCoordinate.value = f.showCoordinate && "Axis" || "Axis";
 fButon.onclick = function(){
 	f.x = 0;
 	f.y = 0;
@@ -151,13 +151,13 @@ fButon.onclick = function(){
 fShowGrid.onclick = function(){
 	f.showGrid = 1-f.showGrid;
 	document.cookie="showGrid="+f.showGrid+";expires="+exdate.toGMTString();
-	fShowGrid.value = f.showGrid && "关闭网格" || "显示网格";
+	fShowGrid.value = f.showGrid && "Grid" || "Grid";
 	redraw();
 };
 fShowCoordinate.onclick = function(){
 	f.showCoordinate = 1-f.showCoordinate;
 	document.cookie="showCoordinate="+f.showCoordinate+";expires="+exdate.toGMTString();
-	fShowCoordinate.value = f.showCoordinate && "关闭坐标轴" || "显示坐标轴";
+	fShowCoordinate.value = f.showCoordinate && "Axis" || "Axis";
 	redraw();
 };
 fRatioChange.onmouseup = function(){
