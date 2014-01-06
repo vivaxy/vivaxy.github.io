@@ -5,8 +5,8 @@ img{
 	margin: auto;
 }
 #menu{
-	position: relative;
-	top: 0px;
+	position: fixed;
+	top: 100%;
 	left: 0px;
 	height: 3px;
 	z-index: 1;
@@ -23,6 +23,7 @@ img{
 	width: 5.2631578947368421052631578947368%;
 	height: 3px;
 	position: relative;
+	top: -3px;
 }
 #menu li.active{
 	background: rgba(41, 128, 185, 1);
