@@ -24,11 +24,6 @@ document.write("</div>");
 document.write("</div>");
 
 $(document).ready(function () {
-	$("#body").css({
-		position : "absolute",
-		width : window.innerWidth,
-		height : window.innerHeight,
-	});
 	$("#navigation .list").css({
 		height : window.innerHeight - 50,
 	});
@@ -37,7 +32,7 @@ $(document).ready(function () {
 		if (ns == 0) {
 			$("#navigation").css({
 				width : 300,
-				height : window.innerHeight,
+				height : "100%",
 			});
 			$("#body").css({zIndex:100}).animate({left : 300}, 300, function () {
 				$("#navigation .list").css({display:"block"});
