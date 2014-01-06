@@ -3,7 +3,7 @@
 	src: url("Ubuntu-L.ttf");
 }
 body {
-	font-family: "Ubuntu Light";
+	font-family: "Ubuntu Light", Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
@@ -20,7 +20,7 @@ body {
 	height: 100%;
 }
 input {
-	font-family: "Ubuntu Light";
+	font-family: "Ubuntu Light", Helvetica, sans-serif;
 	font-size: 24px;
 	line-height: 50px;
 	font-weight: 300;
