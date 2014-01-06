@@ -2,12 +2,8 @@
 	font-family: "Ubuntu Light";
 	src: url("Ubuntu-L.ttf");
 }
-@font-face { 
-	font-family: "Microsoft YaHei UI Light";
-	src: url("msyhl.ttc");
-}
 body {
-	font-family: "Ubuntu Light", "Microsoft YaHei UI Light";
+	font-family: "Ubuntu Light";
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
@@ -24,7 +20,7 @@ body {
 	height: 100%;
 }
 input {
-	font-family: "Microsoft YaHei UI Light", "Microsoft YaHei", sans-serif;
+	font-family: "Microsoft YaHei UI Light";
 	font-size: 24px;
 	line-height: 50px;
 	font-weight: 300;
