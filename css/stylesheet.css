@@ -4,7 +4,7 @@
 }
 @font-face { 
 	font-family: "Microsoft YaHei UI Light";
-	src: url("msyhl.ttf");
+	src: url("msyhl.ttc");
 }
 body {
 	font-family: "Ubuntu Light", "Microsoft YaHei UI Light";
@@ -52,14 +52,14 @@ input[type="number"] {
 .button:hover {
 	background-color: rgba(41, 128, 185, 1);
 }
-#navigation {
+#navi {
 	width: 50px;
 	height: 50px;
 	position: fixed;
 	z-index: 99;
 	background-color: rgba(0,0,0,0.1);
 }
-#navigation .btn {
+#navi .btn {
 	width: 40px;
 	height: 30px;
 	position: fixed;
@@ -68,7 +68,7 @@ input[type="number"] {
 	background-color: rgba(0, 0, 0, 0);
 	transition: background-color 0.3s;
 }
-#navigation .btn .line {
+#navi .btn .line {
 	background-color: rgba(0,0,0,0.5);
 	width: 24px;
 	height: 3px;
@@ -76,7 +76,7 @@ input[type="number"] {
 	border-radius: 5px;
 	transition: background-color 0.3s;
 }
-#navigation .btn .text {
+#navi .btn .text {
 	width: 250px;
 	height: 50px;
 	line-height: 50px;
@@ -87,35 +87,34 @@ input[type="number"] {
 	color: rgba(0,0,0,1);
 	transition: background-color 0.3s,color 0.3s;
 }
-#navigation .btn:hover {
+#navi .btn:hover {
 	background-color: rgba(41, 128, 185, 1);
 }
-#navigation .btn:hover .text {
+#navi .btn:hover .text {
 	background-color: rgba(41, 128, 185, 1);
 	color: rgba(255,255,255,1);
 }
-#navigation .btn:hover .line {
+#navi .btn:hover .line {
 	background-color: rgba(255,255,255,1);
 }
-#navigation .list {
-	position: relative;
+#navi .list {
 	position: fixed;
 	top: 50px;
 	display: none;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
-#navigation .list ul {
+#navi .list ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
 }
-#navigation .list ul li {
+#navi .list ul li {
 	position: relative;
 	left: -300px;
 	box-shadow: rgba(0,0,0,0.5) -1px -1px 1px 0px inset;
 }
-#navigation .list ul li a {
+#navi .list ul li a {
 	background-color: rgba(255, 255, 255, 0.5);
 	display: block;
 	width: 280px;
@@ -124,7 +123,7 @@ input[type="number"] {
 	color: rgba(0,0,0,1);
 	transition: background-color 0.3s,color 0.3s;
 }
-#navigation .list ul li a:hover {
+#navi .list ul li a:hover {
 	background-color: rgba(41, 128, 185, 1);
 	color: rgba(255,255,255,1);
 }

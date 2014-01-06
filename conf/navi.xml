@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation>
+<navi>
 	<name>QRCode</name><link>/p/qrcode/qrcode.html</link>
 	<name>Math Function</name><link>/p/fx/fx.html</link>
 	<name>Snake</name><link>/p/snake/snake.html</link>
@@ -10,4 +10,4 @@
 	<name>Welcome</name><link>/p/welcome/w1.html</link>
 	<name>Fade</name><link>/p/fade/test1.html</link>
 	<name>Renju</name><link>/p/renju/renju.html</link>
-</navigation>
+</navi>
