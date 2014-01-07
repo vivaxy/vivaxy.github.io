@@ -1,2 +1,1 @@
-# [vivaxy.github.io](http://vivaxy.github.io/)
-github pages
+# [vivaxy.github.io](http://vivaxy.github.io)
