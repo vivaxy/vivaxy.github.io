@@ -29,3 +29,8 @@ a {
 a:hover {
 	background: rgb(22, 160, 133);
 }
+@media screen and (max-width: 600px){
+	div {
+		display: block;
+	}
+}
