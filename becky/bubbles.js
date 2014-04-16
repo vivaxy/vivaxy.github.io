@@ -160,7 +160,7 @@ function Point(x, y, z, size, color) {
         }
         else {
             ctx.beginPath();
-            ctx.arc(this.curPos.x+dx, this.curPos.y+dy, this.radius, 0, Math.PI * 2, true);
+            ctx.arc(this.curPos.x/2+dx+200, this.curPos.y/2+dy, this.radius/2, 0, Math.PI * 2, true);
             ctx.fill();
         }
     }
@@ -168,7 +168,7 @@ function Point(x, y, z, size, color) {
 
 var canvas = $("#myCanvas");
 var canvasHeight = 500;
-var canvasWidth = 2000;
+var canvasWidth = 1000;
 var screenWidth = canvasWidth;
 var ctx;
 var dt = 0.1;
@@ -231,7 +231,7 @@ function initEventListeners() {
 }
 
 function updateCanvasDimensions() {
-    canvas.attr({height: 500, width: 2000});
+    canvas.attr({height: 500, width: 1000});
     canvasWidth = canvas.width();
     canvasHeight = canvas.height();
 
@@ -240,13 +240,13 @@ function updateCanvasDimensions() {
 
 function onMove(e) {
     if (pointCollection) {
-        pointCollection.mousePos.set(e.pageX, e.pageY);
+        pointCollection.mousePos.set(e.pageX*2-400, e.pageY*2);
     }
 }
 
 function onTouchMove(e) {
     if (pointCollection) {
-        pointCollection.mousePos.set(e.targetTouches[0].pageX, e.targetTouches[0].pageY);
+        pointCollection.mousePos.set(e.targetTouches[0].pageX*2-400, e.targetTouches[0].pageY*2);
     }
 }
 
