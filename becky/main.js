@@ -1,4 +1,4 @@
-var text = "that's for u";
+var text = "Happy birthday~ Becky!";
 
 var red = [0, 100, 63];
 var orange = [40, 100, 60];
