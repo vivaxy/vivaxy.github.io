@@ -1,37 +1,45 @@
 body {
 	margin: 0;
 	padding: 0;
-    background: rgb(230, 230, 230);
+	background: rgb(230, 230, 230);
+	font-family: Palatino Linotype;
 }
 .card {
-    margin: 10px auto;
-    padding: 20px;
-    width: 500px;
-    background: rgb(255, 255, 255);
-    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	margin: 10px auto;
+	padding: 20px;
+	width: 500px;
+	background: rgb(255, 255, 255);
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	font-size: 18px;
+	font-weight: bold;
 }
 .card::after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 ul {
-    margin: 0px;
-    padding: 10px 0px 10px 20px;
-    list-style: none;
-    border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+	margin: 0px;
+	padding: 10px 0px 10px 20px;
+	list-style: none;
+	border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+	font-size: 16px;
 }
 li {
-    padding: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 20px;
+	font-size: 15px;
+	font-weight: normal;
 }
 .name {
 	float: left;
-    font-size: 32px;
+	font-size: 32px;
 }
 .contract {
-    text-align: right;
-    float: right;
+	text-align: right;
+	float: right;
+	font-size: 16px;
+	font-weight: normal;
 }
