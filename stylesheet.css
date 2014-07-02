@@ -13,6 +13,7 @@ div {
 	padding: 0px;
 }
 a {
+	outline: none;
 	border-radius: 1px;
 	display: block;
 	height: 48px;

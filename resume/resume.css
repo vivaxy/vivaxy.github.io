@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+    background: rgb(230, 230, 230);
+}
+.card {
+    margin: 10px auto;
+    padding: 20px;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+.card::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+ul {
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+    list-style: none;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+li {
+    padding: 0px 0px 0px 20px;
+}
+.name {
+	float: left;
+    font-size: 32px;
+}
+.contract {
+    text-align: right;
+    float: right;
+}
