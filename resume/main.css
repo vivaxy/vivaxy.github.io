@@ -43,3 +43,11 @@ li {
 	font-size: 16px;
 	font-weight: normal;
 }
+.photo {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url(../vivaxy.jpg) no-repeat;
+	background-size: 100%;
+	margin: 0px 20px 0px 0px;
+}
