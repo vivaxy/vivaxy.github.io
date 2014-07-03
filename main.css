@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400);
+@font-face {
+	font-family: Ubuntu;
+	src: url(Ubuntu-L.ttf);
+}
 body {
 	font-family: Ubuntu, Helvetica, sans-serif;
 	margin: 0px;
