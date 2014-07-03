@@ -1,6 +1,12 @@
 @font-face {
 	font-family: Palatino Linotype;
 	src: url(pala.ttf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: Palatino Linotype;
+	src: url(pala.ttf);
+	font-weight: bold;
 }
 body {
 	margin: 0;
@@ -8,10 +14,13 @@ body {
 	background: rgb(230, 230, 230);
 	font-family: Palatino Linotype;
 }
-.card {
-	margin: 10px auto;
-	padding: 20px 20px 20px 20px;
+.resume {
 	width: 600px;
+	margin: 0 auto;
+}
+.card {
+	margin: 10px 0px;
+	padding: 20px 20px 20px 20px;
 	background: rgb(255, 255, 255);
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	font-size: 18px;
@@ -56,8 +65,7 @@ li {
 	margin: 0px 20px 0px 0px;
 }
 @media screen and (max-width: 600px){
-	.card {
+	.resume {
 		width: 100%;
-		padding: 20px 0px 20px 0px;
 	}
 }
