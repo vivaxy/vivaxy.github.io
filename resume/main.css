@@ -3,11 +3,6 @@
 	src: url(pala.ttf);
 	font-weight: normal;
 }
-@font-face {
-	font-family: Palatino Linotype;
-	src: url(pala.ttf);
-	font-weight: bold;
-}
 body {
 	margin: 0;
 	padding: 0;
