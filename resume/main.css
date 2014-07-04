@@ -12,6 +12,8 @@ body {
 .resume {
 	width: 600px;
 	margin: 0 auto;
+	transition: width 0.5s;
+	-webkit-transition: width 0.5s;
 }
 .card {
 	margin: 10px 0px;
@@ -20,6 +22,15 @@ body {
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	font-size: 18px;
 	font-weight: bold;
+	transition: opacity 0.5s, transform 0.5s;
+	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+}
+.opacity {
+	opacity: 0;
+}
+.transform {
+	transform: rotateX(-90deg) translate3d(0, -100%, 0);
+	-webkit-transform: rotateX(-90deg) translate3d(0, -100%, 0);
 }
 .card::after {
 	visibility: hidden;
