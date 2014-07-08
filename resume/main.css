@@ -1,13 +1,8 @@
-@font-face {
-	font-family: Palatino Linotype;
-	src: url(pala.ttf);
-	font-weight: normal;
-}
 body {
 	margin: 0;
 	padding: 0;
 	background: rgb(230, 230, 230);
-	font-family: Palatino Linotype, serif;
+	font-family: Palatino Linotype, pala, serif;
 }
 .resume {
 	width: 600px;
@@ -43,7 +38,7 @@ body {
 ul {
 	margin: 0px;
 	padding: 10px 0px 10px 20px;
-	border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+	border-top: 1px solid rgba(100, 100, 100, 0.3);
 	font-size: 16px;
 }
 li {
@@ -86,4 +81,8 @@ a:hover {
 	.resume {
 		width: 100%;
 	}
+}
+@font-face {
+	font-family: pala;
+	src: url(pala.ttf);
 }
