@@ -9,6 +9,8 @@ body {
 	margin: 0 auto;
 	transition: width 0.5s;
 	-webkit-transition: width 0.5s;
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
 }
 .card {
 	margin: 10px 0px;
@@ -24,8 +26,8 @@ body {
 	opacity: 0;
 }
 .transform {
-	transform: rotateX(-90deg) translate3d(0, -100%, 100px);
-	-webkit-transform: rotateX(-90deg) translate3d(0, -100%, 100px);
+	transform: rotateX(-90deg) translate3d(0, 100%, 0);
+	-webkit-transform: rotateX(-90deg) translate3d(0, 100%, 0);
 }
 .card::after {
 	visibility: hidden;
