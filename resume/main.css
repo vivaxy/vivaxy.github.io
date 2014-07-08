@@ -29,8 +29,8 @@ body {
 	opacity: 0;
 }
 .transform {
-	transform: rotateX(-90deg) translate3d(0, -100%, 0);
-	-webkit-transform: rotateX(-90deg) translate3d(0, -100%, 0);
+	transform: rotateX(-90deg) translateZ(-100px);
+	-webkit-transform: rotateX(-90deg) translateZ(-100px);
 }
 .card::after {
 	visibility: hidden;
