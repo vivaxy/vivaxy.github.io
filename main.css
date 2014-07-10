@@ -1,9 +1,6 @@
-@font-face {
-	font-family: Ubuntu;
-	src: url(Ubuntu-L.ttf);
-}
 body {
 	font-family: Ubuntu, Helvetica, sans-serif;
+	font-weight: lighter;
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
@@ -37,4 +34,9 @@ a:hover {
 	div {
 		display: block;
 	}
+}
+@font-face {
+	font-family: Ubuntu;
+	src: url(/Ubuntu-L.ttf);
+	font-weight: lighter;
 }
