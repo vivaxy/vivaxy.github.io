@@ -87,4 +87,10 @@ a:hover {
 @font-face {
 	font-family: pala;
 	src: url(pala.ttf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: pala;
+	src: url(palab.ttf);
+	font-weight: bold;
 }
