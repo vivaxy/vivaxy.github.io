@@ -14,4 +14,12 @@
 	<name>2048</name><link>2048</link>
 	<name>AllAccounted</name><link>AllAccounted</link>
 	<name>blog</name><link>//vivaxy.tk</link>
+    <name>wechat test page</name>
+    <link>wechat/web</link>
+    <name>Html5 test page</name>
+    <link>Html5</link>
+    <name>Whac-A-Mole</name>
+    <link>Whac-A-Mole</link>
+    <name>FruitNinja</name>
+    <link>FruitNinja</link>
 </menu>
