@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu>
-	<name>Animated Menu</name><link>AnimatedMenu</link>
-	<name>comment j ai rate ma vie</name><link>comment-j-ai-rate-ma-vie</link>
-	<name>Draw Math Function</name><link>DrawMathFunction</link>
-	<name>Balls</name><link>balls</link>
-	<name>QRCode</name><link>qrcode</link>
-	<name>Renju</name><link>renju</link>
-	<name>Scratch</name><link>scratch</link>
-	<name>Snake</name><link>snake</link>
-	<name>Bubble Sort</name><link>BubbleSort/index.html?number=30&amp;interval=300</link>
-	<name>Quick Sort</name><link>QuickSort/index.html?number=10&amp;interval=1000</link>
-	<name>Minefield</name><link>minefield/index.html?row=30&amp;col=60&amp;size=20&amp;mine=200</link>
-	<name>2048</name><link>2048</link>
-	<name>AllAccounted</name><link>AllAccounted</link>
-	<name>blog</name><link>//vivaxy.tk</link>
+    <item>
+    <name>Animated Menu</name><link>AnimatedMenu</link>
+    </item>
+    <item>
+    <name>comment j ai rate ma vie</name><link>comment-j-ai-rate-ma-vie</link>
+    </item>
+    <item>
+    <name>Draw Math Function</name><link>DrawMathFunction</link>
+    </item>
+    <item>
+    <name>Balls</name><link>balls</link>
+    </item>
+    <item>
+    <name>QRCode</name><link>qrcode</link>
+    </item>
+    <item>
+    <name>Renju</name><link>renju</link>
+    </item>
+    <item>
+    <name>Scratch</name><link>scratch</link>
+    </item>
+    <item>
+    <name>Snake</name><link>snake</link>
+    </item>
+    <item>
+    <name>Bubble Sort</name><link>BubbleSort/index.html?number=30&amp;interval=300</link>
+    </item>
+    <item>
+    <name>Quick Sort</name><link>QuickSort/index.html?number=10&amp;interval=1000</link>
+    </item>
+    <item>
+    <name>Minefield</name><link>minefield/index.html?row=30&amp;col=60&amp;size=20&amp;mine=200</link>
+    </item>
+    <item>
+    <name>2048</name><link>2048</link>
+    </item>
+    <item>
+    <name>AllAccounted</name><link>AllAccounted</link>
+    </item>
+    <item>
+    <name>blog</name><link>//vivaxy.tk</link>
+    </item>
+    <item>
     <name>wechat test page</name>
     <link>wechat/web</link>
+    </item>
+    <item>
     <name>Html5 test page</name>
     <link>Html5</link>
+    </item>
+    <item>
     <name>Whac-A-Mole</name>
     <link>Whac-A-Mole</link>
+    </item>
+    <item>
     <name>FruitNinja</name>
     <link>FruitNinja</link>
+    </item>
 </menu>
