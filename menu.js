@@ -1,7 +1,11 @@
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.open("GET", "menu.xml", false);
-xmlhttp.send();
-var xmlDoc = xmlhttp.responseXML;
+/**
+ * @since 2014/9/9 9:11
+ * @author vivaxy
+ */
+var xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "menu.xml", false);
+xmlHttp.send();
+var xmlDoc = xmlHttp.responseXML;
 var menu = "";
 var menuItemList = xmlDoc.getElementsByTagName("menu")[0].getElementsByTagName("item");
 for (var i = 0; i < menuItemList.length; i++) {
