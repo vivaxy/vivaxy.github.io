@@ -69,11 +69,15 @@
         <link>Whac-A-Mole</link>
     </item>
     <item>
-        <name>FruitNinja</name>
+        <name>Fruit ninja</name>
         <link>FruitNinja</link>
     </item>
     <item>
-        <name>snow</name>
+        <name>Snow</name>
         <link>snow</link>
+    </item>
+    <item>
+        <name>Tomcat</name>
+        <link>tomcat</link>
     </item>
 </menu>
