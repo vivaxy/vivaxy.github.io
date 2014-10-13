@@ -72,4 +72,8 @@
         <name>Tomcat</name>
         <link>tomcat</link>
     </item>
+    <item>
+        <name>Whac-A-Mole</name>
+        <link>Whac-A-Mole</link>
+    </item>
 </menu>
