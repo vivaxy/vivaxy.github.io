@@ -76,4 +76,8 @@
         <name>Whac-A-Mole</name>
         <link>Whac-A-Mole</link>
     </item>
+    <item>
+        <name>CAST</name>
+        <link>cast</link>
+    </item>
 </menu>
