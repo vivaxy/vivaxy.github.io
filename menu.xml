@@ -38,7 +38,7 @@
     </item>
     <item>
         <name>Quick Sort</name>
-        <link>QuickSort/index.html?number=10&amp;interval=1000</link>
+        <link>QuickSort/index.html?number=30&amp;interval=300</link>
     </item>
     <item>
         <name>Minefield</name>
@@ -82,6 +82,6 @@
     </item>
     <item>
         <name>Eliminate</name>
-        <link>eliminate/dist</link>
+        <link>eliminate/release</link>
     </item>
 </menu>
