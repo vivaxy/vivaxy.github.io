@@ -1,24 +1,20 @@
 body {
-    font-weight: 100;
     margin: 0;
     padding: 0;
-    font-size: 24px;
-    line-height: 48px;
     background: rgb(236, 240, 241);
-}
-
-div {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+    line-height: 0;
+    font-size: 0;
 }
 
 a {
+    padding: 0 10px;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 100;
     outline: none;
     border-radius: 1px;
-    display: block;
+    display: inline-block;
     height: 48px;
-    padding: 0 10px;
     background: rgb(26, 188, 156);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
     text-decoration: none;
@@ -37,7 +33,7 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    div {
+    a {
         display: block;
     }
 }
