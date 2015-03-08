@@ -2,18 +2,23 @@
  * @since 2014/9/9 9:11
  * @author vivaxy
  */
-var xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", "menu.xml", false);
-xmlHttp.send();
-var xmlDoc = xmlHttp.responseXML;
-var menu = "";
-var menuItemList = xmlDoc.getElementsByTagName("menu")[0].getElementsByTagName("item");
-for (var i = 0; i < menuItemList.length; i++) {
-    menu = menu +
-    "<a target='_blank' href='" +
-    menuItemList[i].getElementsByTagName("link")[0].childNodes[0].nodeValue +
-    "'>" +
-    menuItemList[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
-    "</a>";
+// send ajax
+var req = new XMLHttpRequest();
+req.open("GET", "menu.json", false);
+req.send();
+
+// get data
+var json = req.responseText;
+var menuList = JSON.parse(json).menu;
+
+// append to html
+var frag = document.createDocumentFragment();
+for (var i = 0; i < menuList.length; i++) {
+    var menu = menuList[i];
+    var a = document.createElement('a');
+    a.target = '_blank';
+    a.href = menu.link;
+    a.innerText = menu.name;
+    frag.appendChild(a);
 }
-document.write(menu);
+document.body.appendChild(frag);

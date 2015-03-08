@@ -1,0 +1,92 @@
+{
+    "menu": [
+        {
+            "name": "Animated Menu",
+            "link": "AnimatedMenu"
+        },
+        {
+            "name": "comment j ai rate ma vie",
+            "link": "comment-j-ai-rate-ma-vie"
+        },
+        {
+            "name": "Draw Math Function",
+            "link": "DrawMathFunction"
+        },
+        {
+            "name": "Balls",
+            "link": "balls"
+        },
+        {
+            "name": "Renju",
+            "link": "renju"
+        },
+        {
+            "name": "Scratch",
+            "link": "scratch"
+        },
+        {
+            "name": "Snake",
+            "link": "snake"
+        },
+        {
+            "name": "Bubble Sort",
+            "link": "BubbleSort/index.html?number=30&amp;interval=300"
+        },
+        {
+            "name": "Quick Sort",
+            "link": "QuickSort/index.html?number=30&amp;interval=300"
+        },
+        {
+            "name": "Minefield",
+            "link": "minefield/index.html?row=30&amp;col=60&amp;size=20&amp;mine=200"
+        },
+        {
+            "name": "2048",
+            "link": "2048"
+        },
+        {
+            "name": "AllAccounted",
+            "link": "AllAccounted"
+        },
+        {
+            "name": "blog",
+            "link": "//vivaxy.tk"
+        },
+        {
+            "name": "wechat test page",
+            "link": "wechat/web"
+        },
+        {
+            "name": "courses",
+            "link": "courses"
+        },
+        {
+            "name": "Snow",
+            "link": "snow"
+        },
+        {
+            "name": "Tomcat",
+            "link": "tomcat"
+        },
+        {
+            "name": "Whac A Mole",
+            "link": "Whac-A-Mole"
+        },
+        {
+            "name": "CAST",
+            "link": "cast"
+        },
+        {
+            "name": "Eliminate",
+            "link": "eliminate/release"
+        },
+        {
+            "name": "JiuGongGe",
+            "link": "jiugongge"
+        },
+        {
+            "name": "Klotski",
+            "link": "klotski/release"
+        }
+    ]
+}
