@@ -87,6 +87,10 @@
         {
             "name": "Klotski",
             "link": "klotski/release"
+        },
+        {
+            "name": "tween",
+            "link": "tween/example"
         }
     ]
 }
