@@ -6,10 +6,17 @@ body {
     margin: 0;
 }
 
-textarea {
-    padding: 0;
-    display: block;
+.text {
     margin: 20px auto 0 auto;
+    width: 240px;
+}
+
+.text textarea {
+    padding: 0;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 1px;
+    box-shadow: none;
 }
 
 .links {
