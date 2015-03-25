@@ -1,76 +1,48 @@
 {
     "menu": [
         {
-            "name": "Animated Menu",
-            "link": "AnimatedMenu"
+            "name": "design",
+            "link": "design"
         },
         {
-            "name": "comment j ai rate ma vie",
-            "link": "comment-j-ai-rate-ma-vie"
+            "name": "course",
+            "link": "course"
         },
         {
-            "name": "Draw Math Function",
-            "link": "DrawMathFunction"
+            "name": "course",
+            "link": "course"
         },
         {
-            "name": "Balls",
-            "link": "balls"
-        },
-        {
-            "name": "Renju",
-            "link": "renju"
-        },
-        {
-            "name": "Scratch",
-            "link": "scratch"
-        },
-        {
-            "name": "Snake",
-            "link": "snake"
-        },
-        {
-            "name": "Bubble Sort",
-            "link": "BubbleSort/index.html?number=30&amp;interval=300"
-        },
-        {
-            "name": "Quick Sort",
-            "link": "QuickSort/index.html?number=30&amp;interval=300"
-        },
-        {
-            "name": "Minefield",
-            "link": "minefield/index.html?row=30&amp;col=60&amp;size=20&amp;mine=200"
-        },
-        {
-            "name": "2048",
-            "link": "2048"
-        },
-        {
-            "name": "AllAccounted",
-            "link": "AllAccounted"
+            "name": "fragment",
+            "link": "fragment"
         },
         {
             "name": "blog",
             "link": "//vivaxy.tk"
         },
         {
+            "name": "Scratch",
+            "link": "scratch"
+        },
+        {
+            "name": "Draw Math Function",
+            "link": "DrawMathFunction"
+        },
+        {
+            "name": "Snake",
+            "link": "snake"
+        },
+        {
+            "name": "AllAccounted",
+            "link": "AllAccounted"
+        },
+        {
             "name": "wechat test page",
             "link": "wechat/web"
         },
         {
-            "name": "courses",
-            "link": "courses"
-        },
-        {
-            "name": "Snow",
-            "link": "snow"
-        },
-        {
             "name": "Tomcat",
             "link": "tomcat"
-        },
-        {
-            "name": "Whac A Mole",
-            "link": "Whac-A-Mole"
         },
         {
             "name": "CAST",
