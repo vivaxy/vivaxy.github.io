@@ -1,68 +1,49 @@
-{
-    "menu": [
-        {
-            "name": "design",
-            "link": "design"
-        },
-        {
-            "name": "course",
-            "link": "course"
-        },
-        {
-            "name": "course",
-            "link": "course"
-        },
-        {
-            "name": "fragment",
-            "link": "fragment"
-        },
-        {
-            "name": "blog",
-            "link": "//vivaxy.tk"
-        },
-        {
-            "name": "Scratch",
-            "link": "scratch"
-        },
-        {
-            "name": "Draw Math Function",
-            "link": "DrawMathFunction"
-        },
-        {
-            "name": "Snake",
-            "link": "snake"
-        },
-        {
-            "name": "AllAccounted",
-            "link": "AllAccounted"
-        },
-        {
-            "name": "wechat test page",
-            "link": "wechat/web"
-        },
-        {
-            "name": "Tomcat",
-            "link": "tomcat"
-        },
-        {
-            "name": "CAST",
-            "link": "cast"
-        },
-        {
-            "name": "Eliminate",
-            "link": "eliminate/release"
-        },
-        {
-            "name": "JiuGongGe",
-            "link": "jiugongge"
-        },
-        {
-            "name": "Klotski",
-            "link": "klotski/release"
-        },
-        {
-            "name": "tween",
-            "link": "tween/example"
-        }
-    ]
-}
+[{
+    "name": "design",
+    "link": "design"
+}, {
+    "name": "course",
+    "link": "course"
+}, {
+    "name": "course",
+    "link": "course"
+}, {
+    "name": "fragment",
+    "link": "fragment"
+}, {
+    "name": "blog",
+    "link": "//vivaxy.tk"
+}, {
+    "name": "Scratch",
+    "link": "scratch"
+}, {
+    "name": "Draw Math Function",
+    "link": "DrawMathFunction"
+}, {
+    "name": "Snake",
+    "link": "snake"
+}, {
+    "name": "AllAccounted",
+    "link": "AllAccounted"
+}, {
+    "name": "wechat test page",
+    "link": "wechat/web"
+}, {
+    "name": "Tomcat",
+    "link": "tomcat"
+}, {
+    "name": "CAST",
+    "link": "cast"
+}, {
+    "name": "Eliminate",
+    "link": "eliminate/release"
+}, {
+    "name": "JiuGongGe",
+    "link": "jiugongge"
+}, {
+    "name": "Klotski",
+    "link": "klotski/release"
+}, {
+    "name": "tween",
+    "link": "tween/example"
+}]
