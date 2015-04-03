@@ -46,4 +46,13 @@
 }, {
     "name": "tween",
     "link": "tween/example"
+}, {
+    "name": "url",
+    "link": "url/example"
+}, {
+    "name": "dom",
+    "link": "dom/example"
+}, {
+    "name": "ajax",
+    "link": "ajax/example"
 }]
