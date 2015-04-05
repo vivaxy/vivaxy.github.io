@@ -13,24 +13,18 @@
 }, {
     "name": "blog",
     "link": "//vivaxy.tk"
-}, {
-    "name": "Scratch",
-    "link": "scratch"
+},{
+    "name": "game",
+    "link": "game"
 }, {
     "name": "Draw Math Function",
     "link": "DrawMathFunction"
-}, {
-    "name": "Snake",
-    "link": "snake"
 }, {
     "name": "AllAccounted",
     "link": "AllAccounted"
 }, {
     "name": "wechat test page",
     "link": "wechat/web"
-}, {
-    "name": "Tomcat",
-    "link": "tomcat"
 }, {
     "name": "CAST",
     "link": "cast"
