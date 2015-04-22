@@ -45,7 +45,7 @@
     "link": "url/example"
 }, {
     "name": "dom",
-    "link": "dom/example"
+    "link": "dom/test"
 }, {
     "name": "ajax",
     "link": "ajax/example"
