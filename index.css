@@ -22,19 +22,23 @@ a span {
     line-height: 32px;
     font-size: 16px;
     font-weight: 100;
+    font-family: monospace;
     color: #333;
     margin: 8px 0 8px 48px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
 }
 
 a:hover span {
     color: #e74c3c;
-    margin-left: 36px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 24px;
 }
 
 a:hover {
     background-color: #fff;
+    height: 80px;
 }

@@ -1,52 +1,66 @@
-[{
-    "name": "design",
-    "link": "design"
-}, {
-    "name": "course",
-    "link": "course"
-}, {
-    "name": "course",
-    "link": "course"
-}, {
-    "name": "fragment",
-    "link": "fragment"
-}, {
-    "name": "blog",
-    "link": "//vivaxy.tk"
-},{
-    "name": "game",
-    "link": "game"
-}, {
-    "name": "Draw Math Function",
-    "link": "DrawMathFunction"
-}, {
-    "name": "AllAccounted",
-    "link": "AllAccounted"
-}, {
-    "name": "wechat test page",
-    "link": "wechat/web"
-}, {
-    "name": "CAST",
-    "link": "cast"
-}, {
-    "name": "Eliminate",
-    "link": "eliminate/release"
-}, {
-    "name": "JiuGongGe",
-    "link": "jiugongge"
-}, {
-    "name": "Klotski",
-    "link": "klotski/release"
-}, {
-    "name": "tween",
-    "link": "tween/example"
-}, {
-    "name": "url",
-    "link": "url/example"
-}, {
-    "name": "dom",
-    "link": "dom/test"
-}, {
-    "name": "ajax",
-    "link": "ajax/example"
-}]
+[
+    {
+        "name": "design",
+        "link": "design"
+    },
+    {
+        "name": "course",
+        "link": "course"
+    },
+    {
+        "name": "fragment",
+        "link": "fragment"
+    },
+    {
+        "name": "blog",
+        "link": "//vivaxy.tk"
+    },
+    {
+        "name": "game",
+        "link": "game"
+    },
+    {
+        "name": "Draw Math Function",
+        "link": "DrawMathFunction"
+    },
+    {
+        "name": "AllAccounted",
+        "link": "AllAccounted"
+    },
+    {
+        "name": "wechat test page",
+        "link": "wechat/web"
+    },
+    {
+        "name": "CAST",
+        "link": "cast"
+    },
+    {
+        "name": "Eliminate",
+        "link": "eliminate/release"
+    },
+    {
+        "name": "JiuGongGe",
+        "link": "jiugongge"
+    },
+    {
+        "name": "Klotski",
+        "link": "klotski/release"
+    },
+    {
+        "name": "tween",
+        "link": "tween/example"
+    },
+    {
+        "name": "url",
+        "link": "url/example"
+    },
+    {
+        "name": "dom",
+        "link": "dom/test"
+    },
+    {
+        "name": "ajax",
+        "link": "ajax/example"
+    }
+]
