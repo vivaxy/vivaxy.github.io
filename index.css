@@ -13,7 +13,7 @@ a, a:visited {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     overflow: hidden;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 a span {
@@ -28,7 +28,7 @@ a span {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 a:hover span {
