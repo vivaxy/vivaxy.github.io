@@ -19,6 +19,7 @@ req.addEventListener('readystatechange', function () {
                 span = document.createElement('span');
             a.target = '_blank';
             a.href = menu.link;
+            a.dataset.text = menu.name;
             span.innerText = menu.name;
             a.appendChild(span);
             frag.appendChild(a);
