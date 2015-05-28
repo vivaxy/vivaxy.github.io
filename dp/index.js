@@ -21,8 +21,14 @@ var textarea = document.querySelector('textarea'),
 
 sign.addEventListener('click', function () {
     var text = textarea.value,
-        uuid = getQueryStringByName(text, 'uuid_token');
-    location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=121.41546&latitude=31.217155';
+        uuid = getQueryStringByName(text, 'uuid_token'),
+        longtitudeRandom = Math.random() * 198,
+        latitudeRandom = Math.random() * 189,
+    // 121.41531 ~ 121.41729
+        longtitude = (41531 + longtitudeRandom) / 100000 + 121,
+    // 31.21723 ~ 31.21921
+        latitude = (21723 + latitudeRandom) / 100000 + 31;
+    location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + longtitude + '&' + latitude + '=31.217237';
 });
 
 check.addEventListener('click', function () {
