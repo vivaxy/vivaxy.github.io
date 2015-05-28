@@ -25,10 +25,10 @@ sign.addEventListener('click', function () {
         longtitudeRandom = Math.random() * 198,
         latitudeRandom = Math.random() * 189,
     // 121.41531 ~ 121.41729
-        longtitude = (41531 + longtitudeRandom) / 100000 + 121,
+        longtitude = ((41531 + longtitudeRandom) / 100000 + 121).toFixed(5),
     // 31.21723 ~ 31.21921
-        latitude = (21723 + latitudeRandom) / 100000 + 31;
-    location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + longtitude + '&' + latitude + '=31.217237';
+        latitude = ((21723 + latitudeRandom) / 100000 + 31).toFixed(5);
+    location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + longtitude + '&latitude=' + latitude;
 });
 
 check.addEventListener('click', function () {
