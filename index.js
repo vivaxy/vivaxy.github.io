@@ -20,7 +20,7 @@ req.addEventListener('readystatechange', function () {
             a.target = '_blank';
             a.href = menu.link;
             a.dataset.text = menu.name;
-            span.innerText = menu.name;
+            span.textContent = menu.name;
             a.appendChild(span);
             frag.appendChild(a);
         }
