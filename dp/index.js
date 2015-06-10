@@ -22,13 +22,14 @@ var textarea = document.querySelector('textarea'),
 sign.addEventListener('click', function () {
     var text = textarea.value,
         uuid = getQueryStringByName(text, 'uuid_token'),
-        longtitudeRandom = Math.random() * 198,
-        latitudeRandom = Math.random() * 189,
-    // 121.41531 ~ 121.41729
-        longtitude = ((41531 + longtitudeRandom) / 100000 + 121).toFixed(5),
-    // 31.21723 ~ 31.21921
-        latitude = ((21723 + latitudeRandom) / 100000 + 31).toFixed(5);
-    location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + longtitude + '&latitude=' + latitude;
+        longitudeRandom = Math.random() * 200,
+        latitudeRandom = Math.random() * 200,
+        // http://qywx.dper.com/app/checkin/loadSign?longitude=0&latitude=0
+    // 121.41460 ~ 121.41659
+        longitude = ((41460 + longitudeRandom) / 100000 + 121).toFixed(5),
+    // 31.21616 ~ 31.21815
+        latitude = ((21616 + latitudeRandom) / 100000 + 31).toFixed(5);
+    location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + longitude + '&latitude=' + latitude;
 });
 
 check.addEventListener('click', function () {
