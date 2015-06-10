@@ -24,7 +24,6 @@ sign.addEventListener('click', function () {
         uuid = getQueryStringByName(text, 'uuid_token'),
         longitudeRandom = Math.random() * 200,
         latitudeRandom = Math.random() * 200,
-        // http://qywx.dper.com/app/checkin/loadSign?longitude=0&latitude=0
     // 121.41460 ~ 121.41659
         longitude = ((41460 + longitudeRandom) / 100000 + 121).toFixed(5),
     // 31.21616 ~ 31.21815
