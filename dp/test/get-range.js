@@ -5,6 +5,9 @@
  */
 
 var http = require('http'),
+
+    approach = require('./approach'),
+
     longitude = {
         valid: 121.41560
     },
@@ -14,14 +17,14 @@ var http = require('http'),
     getUrl = function (lo, la) {
         return 'http://qywx.dper.com/app/checkin/loadSign?longitude=' + lo + '&latitude=' + la;
     },
-    request = function (callback) {
-        http.get(getUrl(), function (res) {
+    request = function (lo, la, callback) {
+        http.get(getUrl(lo, la), function (res) {
             var body = '';
             res.on('data', function (d) {
                 body += d;
             });
             res.on('end', function () {
-                callback && callback(JSON.parse(body).data.office);
+                return callback && callback(JSON.parse(body).data.office);
             });
         });
     };
@@ -41,8 +44,14 @@ latitude.min = 0;
 latitude.max = 0;
 
 // get longitude min bound
-request(function (isOffice) {
-    if (isOffice){
+approach(longitude.lowMin, longitude.lowMax, function (value) {
+    request(value, latitude.valid, function (result) {
         
+    });
+});
+
+request(function (isOffice) {
+    if (isOffice) {
+
     }
 });
