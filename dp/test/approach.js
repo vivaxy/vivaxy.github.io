@@ -6,7 +6,7 @@
 var approach = function (from, to, req, name) {
         var next = (from + to) / 2;
         if (from.toFixed(5) === to.toFixed(5)) {
-            return console.log(name + ': ' + next);
+            return console.log(name + ': ' + next.toFixed(5));
         }
         req(from, function (result1) {
             req(next, function (result2) {

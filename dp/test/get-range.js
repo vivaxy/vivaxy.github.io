@@ -18,15 +18,17 @@ var http = require('http'),
         return 'http://qywx.dper.com/app/checkin/loadSign?longitude=' + lo + '&latitude=' + la;
     },
     request = function (lo, la, callback) {
-        http.get(getUrl(lo, la), function (res) {
-            var body = '';
-            res.on('data', function (d) {
-                body += d;
+        setTimeout(function () {
+            http.get(getUrl(lo, la), function (res) {
+                var body = '';
+                res.on('data', function (d) {
+                    body += d;
+                });
+                res.on('end', function () {
+                    return callback && callback(JSON.parse(body).data.office);
+                });
             });
-            res.on('end', function () {
-                return callback && callback(JSON.parse(body).data.office);
-            });
-        });
+        }, Math.random() * 10000);
     };
 
 longitude.lowMin = 0;
