@@ -3,27 +3,25 @@
  * @author vivaxy
  */
 
-var approach = function (from, to, callback) {
-    var next = (from + to) / 2;
-    if (from.toFixed(5) === to.toFixed(5)) {
-        return next;
-    }
-    if (callback(next) === callback(from)) {
-        return approach(next, to, callback);
-    } else {
-        return approach(from, next, callback);
-    }
-};
-
-var test = approach(0, 100, function (v) {
-    var request = function (callback) {
-        return callback(v < 12);
+var approach = function (from, to, req, name) {
+        var next = (from + to) / 2;
+        if (from.toFixed(5) === to.toFixed(5)) {
+            return console.log(name + ': ' + next);
+        }
+        req(from, function (result1) {
+            req(next, function (result2) {
+                if (result1 === result2) {
+                    return approach(next, to, req, name);
+                } else {
+                    return approach(from, next, req, name);
+                }
+            })
+        });
+    },
+    request = function (value, callback) {
+        callback(value < 12);
     };
-    return request(function (res) {
-        
-    });
-});
 
-console.log(test);
+//approach(0, 100, request);
 
 module.exports = approach;

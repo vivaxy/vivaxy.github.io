@@ -35,6 +35,9 @@ longitude.highMin = longitude.valid;
 longitude.highMax = 180;
 longitude.min = 0;
 longitude.max = 0;
+longitude.get = function (value, callback) {
+    request(value, latitude.valid, callback);
+};
 
 latitude.lowMin = 0;
 latitude.lowMax = latitude.valid;
@@ -42,16 +45,12 @@ latitude.highMin = latitude.valid;
 latitude.highMax = 90;
 latitude.min = 0;
 latitude.max = 0;
+latitude.get = function (value, callback) {
+    request(longitude.valid, value, callback);
+};
 
 // get longitude min bound
-approach(longitude.lowMin, longitude.lowMax, function (value) {
-    request(value, latitude.valid, function (result) {
-        
-    });
-});
-
-request(function (isOffice) {
-    if (isOffice) {
-
-    }
-});
+approach(longitude.lowMin, longitude.lowMax, longitude.get, 'longitude low');
+approach(longitude.highMin, longitude.highMax, longitude.get, 'longitude high');
+approach(latitude.lowMin, latitude.lowMax, latitude.get, 'latitude low');
+approach(latitude.highMin, latitude.highMax, latitude.get, 'latitude high');
