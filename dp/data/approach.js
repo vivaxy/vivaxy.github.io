@@ -3,17 +3,17 @@
  * @author vivaxy
  */
 
-var approach = function (from, to, req, name) {
+var approach = function (from, to, req, callback) {
         var next = (from + to) / 2;
         if (from.toFixed(5) === to.toFixed(5)) {
-            return console.log(name + ': ' + next.toFixed(5));
+            return callback && callback(next.toFixed(5));
         }
         req(from, function (result1) {
             req(next, function (result2) {
                 if (result1 === result2) {
-                    return approach(next, to, req, name);
+                    return approach(next, to, req, callback);
                 } else {
-                    return approach(from, next, req, name);
+                    return approach(from, next, req, callback);
                 }
             })
         });

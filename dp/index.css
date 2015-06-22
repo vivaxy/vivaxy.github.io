@@ -29,7 +29,6 @@ body {
     display: inline-block;
     width: 100px;
     text-align: center;
-    background-color: rgb(26, 188, 156);
     color: rgb(255, 255, 255);
     height: 32px;
     line-height: 32px;
@@ -40,4 +39,9 @@ body {
 
 .sign {
     margin-right: 40px;
+    background-color: rgb(231, 76, 60);
+}
+
+.check {
+    background-color: rgb(26, 188, 156);
 }
