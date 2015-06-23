@@ -1,4 +1,4 @@
-4. CSS的盒子模型
+1. CSS的盒子模型
     
     > 内容(content)
     > 
@@ -10,7 +10,7 @@
     > 
     > IE的content部分包含了 border 和 padding
     
-5. CSS选择器有哪些
+2. CSS选择器有哪些
 
     > id选择器（#myid）
     >
@@ -30,7 +30,7 @@
     >
     > 伪类选择器（a:hover, li:nth-child）
     
-6. CSS哪些属性可以继承
+3. CSS哪些属性可以继承
 
     > font-size
     >
@@ -40,7 +40,7 @@
     >
     > text-indent
     
-7. css不可继承的样式
+4. css不可继承的样式
 
     > border
     >
@@ -52,7 +52,7 @@
     >
     > height
     
-8. css样式权重优先级
+5. css样式权重优先级
 
     > !important
     >
@@ -64,7 +64,7 @@
     > 
     > 就近原则
     
-9. display值有哪些？
+6. display值有哪些？
 
     > block 象块类型元素一样显示。
     >
@@ -74,7 +74,7 @@
     >
     > list-item 象块类型元素一样显示，并添加样式列表标记。
     
-10. 哪些标签的默认display是block
+7. 哪些标签的默认display是block
 
     > div
     >
@@ -86,7 +86,7 @@
     >
     > article
     
-11. 哪些标签的默认display是inline
+8. 哪些标签的默认display是inline
     
     > a
     >
@@ -96,7 +96,7 @@
     >
     > input
     
-12. position的值有哪些？
+9. position的值有哪些？
 
     > absolute 生成绝对定位的元素，相对于 static 定位以外的第一个祖先元素进行定位。 
     > 
@@ -104,11 +104,11 @@
     >
     > relative 生成相对定位的元素，相对于其在普通流中的位置进行定位。 
     >
-    > static  默认值。没有定位，元素出现在正常的流中
+    > static 默认值。没有定位，元素出现在正常的流中
     >
     > inherit 规定从父元素继承 position 属性的值。
     
-2. position的absolute与fixed共同点
+10. position的absolute与fixed共同点
 
     > 改变行内元素的呈现方式，display被置为block
     >
@@ -116,11 +116,12 @@
     > 
     > 默认会覆盖到非定位元素上
     
-3. position的absolute与fixed不同点
+11. position的absolute与fixed不同点
 
     > absolute的”根元素“是可以设置的，而fixed的”根元素“固定为浏览器窗口
     
-1. display:none和visibility:hidden的区别？
+12. display:none和visibility:hidden的区别？
+
     > display:none  隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，
     > 就当他从来不存在。
     > 
