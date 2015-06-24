@@ -5,7 +5,7 @@
     > 填充(padding)
     > 
     > 边界(margin)
-    >
+    > 
     > 边框(border)
     > 
     > IE的content部分包含了 border 和 padding
@@ -111,7 +111,7 @@
 10. position的absolute与fixed共同点
 
     > 改变行内元素的呈现方式，display被置为block
-    >
+    > 
     > 让元素脱离普通流，不占据空间
     > 
     > 默认会覆盖到非定位元素上
@@ -134,3 +134,8 @@
 14. CSS sprites的实现机制
 
     > CSS Sprites其实就是把网页中一些背景图片整合到一张图片文件中，再利用CSS的“background-image”，“background-repeat”，“background-position”的组合进行背景定位，background-position可以用数字能精确的定位出背景图片的位置。这样可以减少很多图片请求的开销，因为请求耗时比较长；请求虽然可以并发，但是也有限制，一般浏览器都是6个。对于未来而言，就不需要这样做了，因为有了`http2`。
+
+15. 响应式布局如何实现？
+
+    > media标签
+    
