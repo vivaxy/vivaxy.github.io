@@ -61,7 +61,7 @@
     > class
     >
     > tag
-    > 
+    >
     > 就近原则
     
 6. display值有哪些？
