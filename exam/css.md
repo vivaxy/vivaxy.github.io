@@ -73,6 +73,8 @@
     > inline-block 象行内元素一样显示，但其内容象块类型元素一样显示。
     >
     > list-item 象块类型元素一样显示，并添加样式列表标记。
+    >
+    > none 不显示
     
 7. 哪些标签的默认display是block
 
@@ -120,14 +122,14 @@
 
     > absolute的”根元素“是可以设置的，而fixed的”根元素“固定为浏览器窗口
     
-12. display:none和visibility:hidden的区别？
+12. display:none和visibility:hidden的区别
 
     > display:none  隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，
     > 就当他从来不存在。
     > 
     > visibility:hidden  隐藏对应的元素，但是在文档布局中仍保留原来的空间。
     
-13. 为什么要初始化CSS样式？
+13. 为什么要初始化CSS样式
 
     > 因为浏览器的兼容问题，不同浏览器对有些标签的默认值是不同的，如果没对CSS初始化往往会出现浏览器之间的页面显示差异。
     
