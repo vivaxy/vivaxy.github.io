@@ -141,3 +141,23 @@
 
     > media标签
     
+16. 行内级元素可以设置宽高吗？
+
+    > 不能，但是有一些特殊的行内元素，比如img，input，select
+
+17. 如何清除浮动？
+    
+    > 增加标签`<div style="clear: both;"></div>`
+    >
+    > 增加标签`<br clear="all">`
+    >
+    > 父容器div增加`class="clearfix"`，使用::after伪元素清除浮动
+    >
+    > 父容器设置样式overflow:hidden
+    >
+    > 父容器设置样式overflow:auto
+    >
+    > 父容器设置样式display:table
+    >
+    > 父容器设置样式float:left
+    
