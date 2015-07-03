@@ -24,21 +24,21 @@
     >
     > querySelectorAll
 
-17. 如何绑定事件
+5. 如何绑定事件
 
     > addEventListener
 
-18. 什么是冒泡捕获
+6. 什么是冒泡捕获
 
     >
 
-5. 如何实现浏览器内多个标签页之间的通信？
+7. 如何实现浏览器内多个标签页之间的通信？
 
     > localstorge
     >
     > cookie
 
-6. 如何解决跨域问题？
+8. 如何解决跨域问题？
 
     > jsonp
     >
@@ -48,19 +48,19 @@
     >
     > window.postMessage
 
-7. call apply bind的作用？
+9. call apply bind的作用？
 
     > 动态改变某个类的某个方法的运行环境
 
-8. call apply bind的区别？
+10. call apply bind的区别？
 
     > 传参形式，call为多参数，apply为数组，bind不能传参
 
-9. javascript里面的继承怎么实现，如何避免原型链上面的对象共享？
+11. javascript里面的继承怎么实现，如何避免原型链上面的对象共享？
 
     > 用构造函数和原型链的混合模式去实现继承，避免对象共享可以参考经典的extend()函数，很多前端框架都有封装的，就是用一个空函数当做中间变量
 
-10. GET和POST的区别，何时使用POST？
+12. GET和POST的区别，何时使用POST？
 
     > GET：一般用于信息获取，使用URL传递参数，对所发送信息的数量也有限制，一般在2000个字符
     > POST：一般用于修改服务器上的资源，对所发送的信息没有限制。
@@ -73,7 +73,7 @@
     > 向服务器发送大量数据（POST 没有数据量限制）
     > 发送包含未知字符的用户输入时，POST 比 GET 更稳定也更可靠
 
-11. 闭包的特性
+13. 闭包的特性
 
     > 函数嵌套函数
     >
@@ -81,11 +81,11 @@
     >
     > 参数和变量不会被垃圾回收机制回收
 
-12. == 和 === 的区别是什么
+14. == 和 === 的区别是什么
 
     > == 会转换类型，消耗性能
 
-12. iframe优点
+15. iframe优点
 
     > 解决加载缓慢的第三方内容如图标和广告等的加载问题
     >
@@ -93,7 +93,7 @@
     >
     > 并行加载脚本
 
-13. iframe缺点
+16. iframe缺点
 
     > iframe会阻塞主页面的Onload事件
     > 
@@ -101,7 +101,7 @@
     >
     > 没有语意
 
-14. 如何对网站的文件和资源进行优化？
+17. 如何对网站的文件和资源进行优化？
 
     > 文件合并
     >
@@ -113,7 +113,7 @@
     >
     > 优化代码
 
-15. js模块化开发的库
+18. js模块化开发的库
 
     > browserify
     >
@@ -150,5 +150,21 @@
     > keyup
     >
     > touchstart
-    >
     
+22. js保留字
+
+    > abstract enum int short boolean export interface static byte extends long super char final native synchronized class float package throws const goto private transient debugger implements protected volatile double import public yield let 
+    
+23. js关键字
+
+    > break do instanceof typeof case else new var catch finally return void continue for switch while debugger function this with default if throw delete in try
+    
+24. js变量名是否区分大小写？
+
+    > 是
+    
+25. js未申明的变量的值是什么？
+
+     > undefined
+     
+26. 
