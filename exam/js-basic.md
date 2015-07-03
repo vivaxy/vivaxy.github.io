@@ -13,35 +13,35 @@
 4. 查找dom节点
 
     > getElementsByTagName
-    >  
+    >
     > getElementsByName
-    > 
+    >
     > getElementById
     >
     > getElementByClassName
-    > 
+    >
     > querySelector
     >
     > querySelectorAll
-    
+
 17. 如何绑定事件
 
     > addEventListener
 
 18. 什么是冒泡捕获
 
-    > 
-    
+    >
+
 5. 如何实现浏览器内多个标签页之间的通信？
 
     > localstorge
     >
     > cookie
-    
+
 6. 如何解决跨域问题？
 
     > jsonp
-    > 
+    >
     > document.domain+iframe
     >
     > window.name
@@ -148,4 +148,7 @@
     > keydown
     >
     > keyup
+    >
+    > touchstart
+    >
     

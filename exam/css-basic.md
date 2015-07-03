@@ -39,6 +39,8 @@
     > color
     >
     > text-indent
+    >
+    > line-height
     
 4. css不可继承的样式
 
