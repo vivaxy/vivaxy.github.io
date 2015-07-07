@@ -112,7 +112,7 @@
     >
     > inherit 规定从父元素继承 position 属性的值。
     
-10. position的absolute与fixed共同点
+10. `position`的`absolute`与`fixed`共同点
 
     > 改变行内元素的呈现方式，display被置为block
     > 
@@ -120,16 +120,16 @@
     > 
     > 默认会覆盖到非定位元素上
     
-11. position的absolute与fixed不同点
+11. `position`的`absolute`与`fixed`不同点
 
-    > absolute的”根元素“是可以设置的，而fixed的”根元素“固定为浏览器窗口
+    > `absolute`的”根元素“是可以设置的，而`fixed`的”根元素“固定为浏览器窗口
     
-12. display:none和visibility:hidden的区别
+12. `display:none`和`visibility:hidden`的区别
 
-    > display:none  隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，
+    > `display:none` 隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，
     > 就当他从来不存在。
     > 
-    > visibility:hidden  隐藏对应的元素，但是在文档布局中仍保留原来的空间。
+    > `visibility:hidden` 隐藏对应的元素，但是在文档布局中仍保留原来的空间。
     
 13. 为什么要初始化CSS样式
 
@@ -155,11 +155,11 @@
     >
     > 父容器div增加`class="clearfix"`，使用::after伪元素清除浮动
     >
-    > 父容器设置样式overflow:hidden
+    > 父容器设置样式`overflow:hidden`
     >
-    > 父容器设置样式overflow:auto
+    > 父容器设置样式`overflow:auto`
     >
-    > 父容器设置样式display:table
+    > 父容器设置样式`display:table`
     >
-    > 父容器设置样式float:left
+    > 父容器设置样式`float:left`
     

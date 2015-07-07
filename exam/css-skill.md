@@ -1,6 +1,6 @@
 1. 如何实现块元素中的某个块元素的居中？
 
-    > 已知宽高，负margin，left: 50% ,top: 50%;
+    > 已知宽高，负margin, left: 50%, top: 50%;
     
 2. 清除浮动有N种方式，他们间有什么共同点吗？
 
@@ -20,5 +20,12 @@
     >
     > display设置为table-cell，table-caption，inline-block
     >
-    > position设置为absolute或fixed
+    > position设置为`absolute`或`fixed`
     
+5. 兼容老版本IE的几种方式
+
+    > 1. css hack
+    >
+    > 2. <!--[if IE]><link rel="stylesheet" type="text/css" href="#"><![endif]-->
+    > 
+    > 3. Modernizr
