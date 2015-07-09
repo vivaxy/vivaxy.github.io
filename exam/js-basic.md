@@ -54,7 +54,7 @@
 
 9. call apply bind的作用？
 
-    > 动态改变某个类的某个方法的运行环境
+    > 动态改变某个方法的运行环境
 
 10. call apply bind的区别？
 
@@ -169,6 +169,8 @@
     
 25. js未申明的变量的值是什么？
 
-     > undefined
-     
-26. 
+    > `undefined`
+    
+27.` var name = function(){};`和`function name(){}`有什么区别？
+
+    > function变量提升
