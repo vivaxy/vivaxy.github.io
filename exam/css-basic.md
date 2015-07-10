@@ -78,7 +78,7 @@
     >
     > none 不显示
     
-7. 哪些标签的默认display是block
+7. 哪些标签的默认`display`是`block`
 
     > div
     >
@@ -90,7 +90,7 @@
     >
     > article
     
-8. 哪些标签的默认display是inline
+8. 哪些标签的默认`display`是`inline`
     
     > a
     >
@@ -100,7 +100,7 @@
     >
     > input
     
-9. position的值有哪些？
+9. `position`的值有哪些？
 
     > absolute 生成绝对定位的元素，相对于 static 定位以外的第一个祖先元素进行定位。 
     > 
