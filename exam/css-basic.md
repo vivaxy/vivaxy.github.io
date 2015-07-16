@@ -8,7 +8,7 @@
     > 
     > 边框(border)
     > 
-    > IE的content部分包含了 border 和 padding
+    > IE的content部分包含了`border`和`padding`
     
 2. CSS选择器有哪些
 
@@ -66,7 +66,7 @@
     >
     > 就近原则
     
-6. display值有哪些？
+6. `display`值有哪些？
 
     > block 象块类型元素一样显示。
     >
@@ -102,13 +102,13 @@
     
 9. `position`的值有哪些？
 
-    > absolute 生成绝对定位的元素，相对于 static 定位以外的第一个祖先元素进行定位。 
+    > absolute 生成绝对定位的元素，相对于 static 定位以外的第一个祖先元素进行定位。
     > 
-    > fixed （老IE不支持）生成绝对定位的元素，相对于浏览器窗口进行定位。 
+    > fixed （老IE不支持）生成绝对定位的元素，相对于浏览器窗口进行定位。
     >
-    > relative 生成相对定位的元素，相对于其在普通流中的位置进行定位。 
+    > relative 生成相对定位的元素，相对于其在普通流中的位置进行定位。
     >
-    > static 默认值。没有定位，元素出现在正常的流中
+    > static 默认值。没有定位，元素出现在正常的流中。
     >
     > inherit 规定从父元素继承 position 属性的值。
     
