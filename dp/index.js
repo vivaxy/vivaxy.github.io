@@ -20,26 +20,30 @@ var textarea = document.querySelector('textarea'),
     };
 
 sign.addEventListener('click', function () {
-    var text = textarea.value,
-        uuid = getQueryStringByName(text, 'uuid_token'),
-        
-        req = new XMLHttpRequest();
-    req.open('GET', 'data.json', true);
-    req.addEventListener('readystatechange', function () {
-        if (req.readyState === 4 && req.status === 200) {
-            var data = JSON.parse(req.responseText),
-                getValue = function (name) {
-                    return (Math.random() * (data[name].high - data[name].low) + data[name].low).toFixed(5);
-                };
-            location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + getValue('longitude') + '&latitude=' + getValue('latitude');
-        }
-    });
-    req.send();
+    if (!this.hasAttribute('disabled')) {
+        this.setAttribute('disabled', '');
+        var text = textarea.value,
+            uuid = getQueryStringByName(text, 'uuid_token'),
+            req = new XMLHttpRequest();
+        req.open('GET', 'data.json', true);
+        req.addEventListener('readystatechange', function () {
+            if (req.readyState === 4 && req.status === 200) {
+                var data = JSON.parse(req.responseText),
+                    getValue = function (name) {
+                        return (Math.random() * (data[name].high - data[name].low) + data[name].low).toFixed(5);
+                    };
+                location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + getValue('longitude') + '&latitude=' + getValue('latitude');
+            }
+        });
+        req.send();
+    }
 });
 
 check.addEventListener('click', function () {
-    var text = textarea.value,
-        uuid = getQueryStringByName(text, 'uuid_token');
-    location.href = 'http://qywx.dper.com/app/checkin.html#/search?uuid_token=' + uuid;
-
+    if (!this.hasAttribute('disabled')) {
+        this.setAttribute('disabled', '');
+        var text = textarea.value,
+            uuid = getQueryStringByName(text, 'uuid_token');
+        location.href = 'http://qywx.dper.com/app/checkin.html#/search?uuid_token=' + uuid;
+    }
 });

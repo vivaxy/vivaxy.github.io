@@ -45,3 +45,7 @@ body {
 .check {
     background-color: rgb(26, 188, 156);
 }
+
+a[disabled] {
+    background-color: rgb(200, 200, 200);
+}
