@@ -15,7 +15,7 @@ var approach = function (from, to, req, callback) {
                 } else {
                     return approach(from, next, req, callback);
                 }
-            })
+            });
         });
     },
     request = function (value, callback) {

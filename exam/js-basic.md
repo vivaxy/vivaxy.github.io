@@ -99,7 +99,7 @@
 
 17. iframe缺点
 
-    > iframe会阻塞主页面的Onload事件
+    > iframe会阻塞主页面的onload事件
     > 
     > 即时内容为空，加载也需要时间
     >
