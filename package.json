@@ -1,22 +1,18 @@
 {
-  "name": "vivaxy.github.io",
-  "version": "1.0.0",
-  "description": "personal index",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vivaxy/vivaxy.github.io.git"
-  },
-  "keywords": [
-    "index"
-  ],
-  "author": "vivaxy",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vivaxy/vivaxy.github.io/issues"
-  },
-  "homepage": "https://github.com/vivaxy/vivaxy.github.io"
+    "name": "vivaxy.github.io",
+    "version": "1.0.0",
+    "description": "personal index page",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vivaxy/vivaxy.github.io.git"
+    },
+    "keywords": [
+        "index"
+    ],
+    "author": "vivaxy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vivaxy/vivaxy.github.io/issues"
+    },
+    "homepage": "https://github.com/vivaxy/vivaxy.github.io"
 }
