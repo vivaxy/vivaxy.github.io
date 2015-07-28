@@ -19,7 +19,7 @@ var http = require('http'),
     request = function (lo, la, callback) {
         setTimeout(function () {
             var url = getUrl(lo, la);
-            console.log('requesting: ' + url);
+            //console.log('requesting: ' + url);
             http.get(url, function (res) {
                 var body = '';
                 res.on('data', function (d) {
@@ -27,7 +27,7 @@ var http = require('http'),
                 });
                 res.on('end', function () {
                     var result = JSON.parse(body).data.office;
-                    console.log('respond with: ' + result);
+                    //console.log('respond with: ' + result);
                     return callback && callback(result);
                 });
             });
