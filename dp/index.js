@@ -32,7 +32,7 @@ sign.addEventListener('click', function () {
                     getValue = function (name) {
                         return (Math.random() * (data[name].high - data[name].low) + data[name].low).toFixed(5);
                     };
-                location.href = 'http://qywx.dper.com/app/checkin.html#/sign?uuid_token=' + uuid + '&longitude=' + getValue('longitude') + '&latitude=' + getValue('latitude');
+                location.href = 'http://qywx.dper.com/app/checkin/loadSign?uuid=' + uuid + '&longitude=' + getValue('longitude') + '&latitude=' + getValue('latitude');
             }
         });
         req.send();
