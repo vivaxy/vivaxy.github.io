@@ -124,7 +124,7 @@
 
     > `absolute`的”根元素“是可以设置的，而`fixed`的”根元素“固定为浏览器窗口
     
-12. `display:none`和`visibility:hidden`的区别
+12. `display: none`和`visibility: hidden`的区别
 
     > `display:none` 隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，
     > 就当他从来不存在。
@@ -155,11 +155,11 @@
     >
     > 父容器div增加`class="clearfix"`，使用::after伪元素清除浮动
     >
-    > 父容器设置样式`overflow:hidden`
+    > 父容器设置样式`overflow: hidden`
     >
-    > 父容器设置样式`overflow:auto`
+    > 父容器设置样式`overflow: auto`
     >
-    > 父容器设置样式`display:table`
+    > 父容器设置样式`display: table`
     >
-    > 父容器设置样式`float:left`
+    > 父容器设置样式`float: left`
     
