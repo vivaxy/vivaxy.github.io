@@ -41,19 +41,23 @@
     },
     {
         "name": "tween",
-        "link": "tween/example"
+        "link": "tween/demo"
     },
     {
         "name": "url",
-        "link": "url/example"
+        "link": "url/demo"
     },
     {
         "name": "dom",
-        "link": "dom/test"
+        "link": "dom/demo"
+    },
+    {
+        "name": "event emitter",
+        "link": "event-emitter/demo"
     },
     {
         "name": "ajax",
-        "link": "ajax/example"
+        "link": "ajax/demo"
     },
     {
         "name": "qrcode chrome",
