@@ -66,5 +66,9 @@
     {
         "name": "jsonp",
         "link": "jsonp/demo"
+    },
+    {
+        "name": "pjax",
+        "link": "pjax/demo/page1"
     }
 ]
