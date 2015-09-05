@@ -66,9 +66,5 @@
     {
         "name": "jsonp",
         "link": "jsonp/demo"
-    },
-    {
-        "name": "browser tracker",
-        "link": "browser-tracker/demo"
     }
 ]
