@@ -67,6 +67,7 @@ window.addEventListener('error', function (e) {
             'user-agent': navigator.userAgent,
             'location': location.href,
             'referrer': document.referrer,
+            'devicePixelRatio': window.devicePixelRatio,
             'screen': screen
         }) +
         prettify({
