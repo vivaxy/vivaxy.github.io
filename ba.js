@@ -70,7 +70,8 @@ window.addEventListener('error', function (e) {
             'devicePixelRatio': window.devicePixelRatio,
             'screen': screen,
             'language': navigator.language,
-            'languages': navigator.languages
+            'languages': navigator.languages,
+            'max-touch-points': navigator.maxTouchPoints
         }) +
         prettify({
             'error': e.error.stack.split('\n')
