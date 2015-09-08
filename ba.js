@@ -68,7 +68,9 @@ window.addEventListener('error', function (e) {
             'location': location.href,
             'referrer': document.referrer,
             'devicePixelRatio': window.devicePixelRatio,
-            'screen': screen
+            'screen': screen,
+            'language': navigator.language,
+            'languages': navigator.languages
         }) +
         prettify({
             'error': e.error.stack.split('\n')
