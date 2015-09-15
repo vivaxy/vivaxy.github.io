@@ -29,4 +29,3 @@
     > 2. <!--[if IE]><link rel="stylesheet" type="text/css" href="#"><![endif]-->
     >
     > 3. Modernizr
-
