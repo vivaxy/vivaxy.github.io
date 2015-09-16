@@ -175,6 +175,6 @@
 
     > `undefined`
 
-27.` var name = function(){};`和`function name(){}`有什么区别？
+27. `var name = function(){};`和`function name(){}`有什么区别？
 
     > function变量提升
