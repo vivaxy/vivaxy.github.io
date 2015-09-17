@@ -70,5 +70,9 @@
     {
         "name": "pjax",
         "link": "pjax/demo/page1"
+    },
+    {
+        "name": "console to dom",
+        "link": "console-to-dom/demo"
     }
 ]
