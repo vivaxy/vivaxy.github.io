@@ -1,34 +1,30 @@
 1. CSS的盒子模型
 
-    内容(content)
-   
-    填充(padding)
-   
-    边界(margin)
-   
-    边框(border)
-   
-    IE的content部分包含了`border`和`padding`
+        内容(content)
+        填充(padding)
+        边界(margin)
+        边框(border)
+        IE的content部分包含了`border`和`padding`
 
 2. CSS选择器有哪些
 
-    id选择器（#myid）
-   
-    类选择器（.myclassname）
-   
-    标签选择器（div, h1, p）
-   
-    相邻选择器（h1 + p）
-   
-    子选择器（ul > li）
-   
-    后代选择器（li a）
-   
-    通配符选择器（ * ）
-   
-    属性选择器（a[rel = "external"]）
-   
-    伪类选择器（a:hover, li:nth-child）
+        id选择器（#myid）
+       
+        类选择器（.myclassname）
+       
+        标签选择器（div, h1, p）
+       
+        相邻选择器（h1 + p）
+       
+        子选择器（ul > li）
+       
+        后代选择器（li a）
+       
+        通配符选择器（ * ）
+       
+        属性选择器（a[rel = "external"]）
+       
+        伪类选择器（a:hover, li:nth-child）
     
 3. CSS哪些属性可以继承
 
