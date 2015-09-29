@@ -1,4 +1,4 @@
-1. CSS的盒子模型
+- CSS的盒子模型
 
         内容(content)
         填充(padding)
@@ -6,7 +6,7 @@
         边框(border)
         IE的content部分包含了`border`和`padding`
 
-2. CSS选择器有哪些
+- CSS选择器有哪些
 
         id选择器（#myid）
         类选择器（.myclassname）
@@ -18,7 +18,7 @@
         属性选择器（a[rel = "external"]）
         伪类选择器（a:hover, li:nth-child）
     
-3. CSS哪些属性可以继承
+- CSS哪些属性可以继承
 
         font-size
         font-family
@@ -26,7 +26,7 @@
         text-indent
         line-height
     
-4. css不可继承的样式
+- css不可继承的样式
 
         border
         padding
@@ -34,7 +34,7 @@
         width
         height
 
-5. css样式权重优先级
+- css样式权重优先级
 
         !important
         id
@@ -42,7 +42,7 @@
         tag
         就近原则
 
-6. `display`值有哪些？
+- `display`值有哪些？
 
         block 象块类型元素一样显示。
         inline 缺省值。象行内元素类型一样显示。
@@ -50,7 +50,7 @@
         list-item 象块类型元素一样显示，并添加样式列表标记。
         none 不显示
 
-7. `position`的值有哪些？
+- `position`的值有哪些？
 
         absolute 生成绝对定位的元素，相对于 static 定位以外的第一个祖先元素进行定位。
         fixed （老IE不支持）生成绝对定位的元素，相对于浏览器窗口进行定位。
@@ -58,38 +58,38 @@
         static 默认值。没有定位，元素出现在正常的流中。
         inherit 规定从父元素继承 position 属性的值。
 
-8. `position`的`absolute`与`fixed`共同点
+- `position`的`absolute`与`fixed`共同点
 
         改变行内元素的呈现方式，display被置为block
         让元素脱离普通流，不占据空间
         默认会覆盖到非定位元素上
 
-9. `position`的`absolute`与`fixed`不同点
+- `position`的`absolute`与`fixed`不同点
 
         `absolute`的”根元素“是可以设置的，而`fixed`的”根元素“固定为浏览器窗口
 
-10. `display: none`和`visibility: hidden`的区别
+- `display: none`和`visibility: hidden`的区别
 
         `display:none` 隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，就当他从来不存在。
         `visibility:hidden` 隐藏对应的元素，但是在文档布局中仍保留原来的空间。
 
-11. 为什么要初始化CSS样式
+- 为什么要初始化CSS样式
 
         因为浏览器的兼容问题，不同浏览器对有些标签的默认值是不同的，如果没对CSS初始化往往会出现浏览器之间的页面显示差异。
 
-12. CSS sprites的实现机制
+- CSS sprites的实现机制
 
         CSS Sprites其实就是把网页中一些背景图片整合到一张图片文件中，再利用CSS的“background-image”，“background-repeat”，“background-position”的组合进行背景定位，background-position可以用数字能精确的定位出背景图片的位置。这样可以减少很多图片请求的开销，因为请求耗时比较长；请求虽然可以并发，但是也有限制，一般浏览器都是6个。对于未来而言，就不需要这样做了，因为有了`http2`。
 
-13. 响应式布局如何实现？
+- 响应式布局如何实现？
 
         media标签
 
-14. 行内元素可以设置宽高吗？
+- 行内元素可以设置宽高吗？
 
         不能，但是有一些特殊的行内元素，比如`img`，`input`，`select`
 
-15. 如何清除浮动？
+- 如何清除浮动？
 
         增加标签`<div style="clear: both;"></div>`
         增加标签`<br clear="all">`
@@ -99,13 +99,13 @@
         父容器设置样式`display: table`
         父容器设置样式`float: left`
 
-16. 页面导入样式时，使用link和@import有什么区别？
+- 页面导入样式时，使用link和@import有什么区别？
 
         link属于XHTML标签，除了加载CSS外，还能用于定义RSS, 定义rel连接属性等作用；而@import是CSS提供的，只能用于加载CSS
         页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载
         import是CSS2.1 提出的，只在IE5以上才能被识别，而link是XHTML标签，无兼容问题
         
-17. CSS3新增伪类举例
+- CSS3新增伪类举例
 
         p:first-of-type 选择属于其父元素的首个 <p> 元素的每个 <p> 元素。
         p:last-of-type  选择属于其父元素的最后 <p> 元素的每个 <p> 元素。
@@ -115,54 +115,54 @@
         :enabled  :disabled 控制表单控件的禁用状态。
         :checked        单选框或复选框被选中。
         
-18. CSS3有哪些新特性
+- CSS3有哪些新特性
 
         css3实现圆角（border-radius:8px），阴影（box-shadow:10px），
         对文字加特效（text-shadow、），线性渐变（gradient），旋转（transform）
         transform:rotate(9deg) scale(0.85,0.90) translate(0px,-30px) skew(-9deg,0deg);//旋转,缩放,定位,倾斜
         增加了更多的css选择器  多背景 rgba
         
-19. CSS 预处理器
+- CSS 预处理器
 
         less
         sass
         stylus
 
-20. 如何实现块元素中的某个块元素的居中？
+- 如何实现块元素中的某个块元素的居中？
 
         已知宽高，负margin, left: 50%, top: 50%;
 
-21. 清除浮动有N种方式，他们间有什么共同点吗？
+- 清除浮动有N种方式，他们间有什么共同点吗？
 
         clear:both法和构造BFC法
 
-22. 什么是BFC？
+- 什么是BFC？
 
         Block formatting contexts(BFC)，块级格式化上下文是在CSS2.1中提出的一个概念，在布局中，BFC自成体系，对自己内部的元素负责，不会与浮动元素重叠，相邻BFC上下margin也不会重叠。所以我们会通过构造一个BFC来防止margin重叠，清除浮动或者实现一个双栏布局。
         需要特别注意的是，在IE6，7下没有BFC这个概念，但是有一个与BFC性质相似的概念：layout。在IE6，7中遇到的很多bug都可以通过让元素has layout来解决，比如浮动margin双边距，躲猫猫，3像素间距等等。
 
-23. 如何构造BFC？
+- 如何构造BFC？
 
         float设置为非none值
         overflow设置为非visible
         display设置为table-cell，table-caption，inline-block
         position设置为`absolute`或`fixed`
 
-24. 兼容老版本IE的几种方式
+- 兼容老版本IE的几种方式
 
         css hack
         <!--[if IE]><link rel="stylesheet" type="text/css" href="#"><![endif]-->
         Modernizr
 
-25. `margin: auto`为什么只能实现水平居中，不能垂直居中？
+- `margin: auto`为什么只能实现水平居中，不能垂直居中？
 
         网页排版时，常规流的块级元素水平方向总是铺满浏览器窗口，垂直方向各块级元素按照先后顺序从上往下排列，当页面内容过多时网页会出现纵向滚动条，因此原理上纵向是可以无限扩展的，计算时找不到一个固定的参考值，所以纵向的auto无法生效。
 
-26. 如何用`margin: auto`实现垂直居中？
+- 如何用`margin: auto`实现垂直居中？
 
         当书写模式为纵向时，margin：auto垂直方向是可以居中的
 
-27. 可以让一个`position: fixed`的元素相对于一个容器定位而非浏览器视口吗？
+- 可以让一个`position: fixed`的元素相对于一个容器定位而非浏览器视口吗？
 
         当一个元素应用了CSS3的transform属性后，它的后代元素的fixed都将失效。http://www.w3.org/TR/css3-transforms/#issue-ca2c412c。因此可以利用这个Bug模拟出一个相对于某个包含块fixed的效果。
 
