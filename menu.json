@@ -1,5 +1,9 @@
 [
     {
+        "name": "blog",
+        "link": "//vivaxyblog.github.io"
+    },
+    {
         "name": "design",
         "link": "design"
     },
@@ -8,60 +12,40 @@
         "link": "course"
     },
     {
-        "name": "blog",
-        "link": "//vivaxyblog.github.io"
-    },
-    {
         "name": "game",
         "link": "game"
     },
     {
-        "name": "draw math function",
-        "link": "draw-math-function"
-    },
-    {
-        "name": "AllAccounted",
-        "link": "AllAccounted"
-    },
-    {
-        "name": "wechat test page",
-        "link": "wechat/web"
+        "name": "qrcode chrome",
+        "link": "qrcode-chrome"
     },
     {
         "name": "Eliminate",
         "link": "eliminate/release"
     },
     {
-        "name": "JiuGongGe",
-        "link": "jiugongge"
-    },
-    {
         "name": "Klotski",
         "link": "klotski/release"
-    },
-    {
-        "name": "tween",
-        "link": "tween/demo"
     },
     {
         "name": "url",
         "link": "url/demo"
     },
     {
-        "name": "dom",
-        "link": "dom/demo"
-    },
-    {
         "name": "event emitter",
         "link": "event-emitter/demo"
     },
     {
-        "name": "ajax",
-        "link": "ajax/demo"
+        "name": "tween",
+        "link": "tween/demo"
     },
     {
-        "name": "qrcode chrome",
-        "link": "qrcode-chrome"
+        "name": "dom",
+        "link": "dom/demo"
+    },
+    {
+        "name": "ajax",
+        "link": "ajax/demo"
     },
     {
         "name": "jsonp",
@@ -74,5 +58,21 @@
     {
         "name": "console to dom",
         "link": "console-to-dom/demo"
+    },
+    {
+        "name": "JiuGongGe",
+        "link": "jiugongge"
+    },
+    {
+        "name": "draw math function",
+        "link": "draw-math-function"
+    },
+    {
+        "name": "AllAccounted",
+        "link": "AllAccounted"
+    },
+    {
+        "name": "wechat test page",
+        "link": "wechat/web"
     }
 ]
