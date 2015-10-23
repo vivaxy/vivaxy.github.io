@@ -25,7 +25,7 @@
         color
         text-indent
         line-height
-    
+
 - css不可继承的样式
 
         border
@@ -70,8 +70,8 @@
 
 - `display: none`和`visibility: hidden`的区别
 
-        `display:none` 隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，就当他从来不存在。
-        `visibility:hidden` 隐藏对应的元素，但是在文档布局中仍保留原来的空间。
+        `display: none` 隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，就当他从来不存在。
+        `visibility: hidden` 隐藏对应的元素，但是在文档布局中仍保留原来的空间。
 
 - 为什么要初始化CSS样式
 
@@ -104,7 +104,7 @@
         link属于XHTML标签，除了加载CSS外，还能用于定义RSS, 定义rel连接属性等作用；而@import是CSS提供的，只能用于加载CSS
         页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载
         import是CSS2.1 提出的，只在IE5以上才能被识别，而link是XHTML标签，无兼容问题
-        
+
 - CSS3新增伪类举例
 
         p:first-of-type 选择属于其父元素的首个 <p> 元素的每个 <p> 元素。
@@ -114,14 +114,14 @@
         p:nth-child(2)  选择属于其父元素的第二个子元素的每个 <p> 元素。
         :enabled  :disabled 控制表单控件的禁用状态。
         :checked        单选框或复选框被选中。
-        
+
 - CSS3有哪些新特性
 
         css3实现圆角（border-radius:8px），阴影（box-shadow:10px），
         对文字加特效（text-shadow、），线性渐变（gradient），旋转（transform）
         transform:rotate(9deg) scale(0.85,0.90) translate(0px,-30px) skew(-9deg,0deg);//旋转,缩放,定位,倾斜
         增加了更多的css选择器  多背景 rgba
-        
+
 - CSS 预处理器
 
         less

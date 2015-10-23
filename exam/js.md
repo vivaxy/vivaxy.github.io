@@ -57,17 +57,17 @@
 - call apply bind的区别？
 
         传参形式，call为多参数，apply为数组，bind不能传参
-        
+
 - 创建javascript对象的方法
 
         var object = {};
         var object = new Object();
-        
+
 - 创建数组的方法
 
         var array = [];
         var array = new Array();
-        
+
 - 什么是变量提升
 
         variable hoisting
@@ -222,11 +222,11 @@
         defer，只支持IE
         async
         创建script，插入到dom中，加载完毕后callBack
-        
+
 - 如何判断当前脚本运行在浏览器还是node环境中
 
         通过判断global对象是否为window，如果不为window，当前脚本没有运行在浏览器中
-        
+
 - 对node的优点和缺点提出了自己的看法
 
         （优点）因为Node是基于事件驱动和无阻塞的，所以非常适合处理并发请求，
