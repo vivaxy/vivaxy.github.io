@@ -1,12 +1,12 @@
-- CSS的盒子模型
+- css的盒子模型
 
         内容(content)
         填充(padding)
         边界(margin)
         边框(border)
-        IE的content部分包含了`border`和`padding`
+        ie的content部分包含了`border`和`padding`
 
-- CSS选择器有哪些
+- css选择器有哪些
 
         id选择器（#myid）
         类选择器（.myclassname）
@@ -18,7 +18,7 @@
         属性选择器（a[rel = "external"]）
         伪类选择器（a:hover, li:nth-child）
     
-- CSS哪些属性可以继承
+- css哪些属性可以继承
 
         font-size
         font-family
@@ -73,13 +73,13 @@
         `display: none` 隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，就当他从来不存在。
         `visibility: hidden` 隐藏对应的元素，但是在文档布局中仍保留原来的空间。
 
-- 为什么要初始化CSS样式
+- 为什么要初始化css样式
 
-        因为浏览器的兼容问题，不同浏览器对有些标签的默认值是不同的，如果没对CSS初始化往往会出现浏览器之间的页面显示差异。
+        因为浏览器的兼容问题，不同浏览器对有些标签的默认值是不同的，如果没对css初始化往往会出现浏览器之间的页面显示差异。
 
-- CSS sprites的实现机制
+- css sprites的实现机制
 
-        CSS Sprites其实就是把网页中一些背景图片整合到一张图片文件中，再利用CSS的“background-image”，“background-repeat”，“background-position”的组合进行背景定位，background-position可以用数字能精确的定位出背景图片的位置。这样可以减少很多图片请求的开销，因为请求耗时比较长；请求虽然可以并发，但是也有限制，一般浏览器都是6个。对于未来而言，就不需要这样做了，因为有了`http2`。
+        css Sprites其实就是把网页中一些背景图片整合到一张图片文件中，再利用css的“background-image”，“background-repeat”，“background-position”的组合进行背景定位，background-position可以用数字能精确的定位出背景图片的位置。这样可以减少很多图片请求的开销，因为请求耗时比较长；请求虽然可以并发，但是也有限制，一般浏览器都是6个。对于未来而言，就不需要这样做了，因为有了`http2`。
 
 - 响应式布局如何实现？
 
@@ -101,11 +101,11 @@
 
 - 页面导入样式时，使用link和@import有什么区别？
 
-        link属于XHTML标签，除了加载CSS外，还能用于定义RSS, 定义rel连接属性等作用；而@import是CSS提供的，只能用于加载CSS
-        页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载
-        import是CSS2.1 提出的，只在IE5以上才能被识别，而link是XHTML标签，无兼容问题
+        link属于XHTML标签，除了加载css外，还能用于定义RSS, 定义rel连接属性等作用；而@import是css提供的，只能用于加载css
+        页面被加载的时，link会同时被加载，而@import引用的css会等到页面被加载完再加载
+        import是css2.1 提出的，只在IE5以上才能被识别，而link是XHTML标签，无兼容问题
 
-- CSS3新增伪类举例
+- css3新增伪类举例
 
         p:first-of-type 选择属于其父元素的首个 <p> 元素的每个 <p> 元素。
         p:last-of-type  选择属于其父元素的最后 <p> 元素的每个 <p> 元素。
@@ -115,14 +115,14 @@
         :enabled  :disabled 控制表单控件的禁用状态。
         :checked        单选框或复选框被选中。
 
-- CSS3有哪些新特性
+- css3有哪些新特性
 
         css3实现圆角（border-radius:8px），阴影（box-shadow:10px），
         对文字加特效（text-shadow、），线性渐变（gradient），旋转（transform）
         transform:rotate(9deg) scale(0.85,0.90) translate(0px,-30px) skew(-9deg,0deg);//旋转,缩放,定位,倾斜
         增加了更多的css选择器  多背景 rgba
 
-- CSS 预处理器
+- css 预处理器
 
         less
         sass
@@ -138,7 +138,7 @@
 
 - 什么是BFC？
 
-        Block formatting contexts(BFC)，块级格式化上下文是在CSS2.1中提出的一个概念，在布局中，BFC自成体系，对自己内部的元素负责，不会与浮动元素重叠，相邻BFC上下margin也不会重叠。所以我们会通过构造一个BFC来防止margin重叠，清除浮动或者实现一个双栏布局。
+        Block formatting contexts(BFC)，块级格式化上下文是在css2.1中提出的一个概念，在布局中，BFC自成体系，对自己内部的元素负责，不会与浮动元素重叠，相邻BFC上下margin也不会重叠。所以我们会通过构造一个BFC来防止margin重叠，清除浮动或者实现一个双栏布局。
         需要特别注意的是，在IE6，7下没有BFC这个概念，但是有一个与BFC性质相似的概念：layout。在IE6，7中遇到的很多bug都可以通过让元素has layout来解决，比如浮动margin双边距，躲猫猫，3像素间距等等。
 
 - 如何构造BFC？
@@ -164,5 +164,4 @@
 
 - 可以让一个`position: fixed`的元素相对于一个容器定位而非浏览器视口吗？
 
-        当一个元素应用了CSS3的transform属性后，它的后代元素的fixed都将失效。http://www.w3.org/TR/css3-transforms/#issue-ca2c412c。因此可以利用这个Bug模拟出一个相对于某个包含块fixed的效果。
-
+        当一个元素应用了css3的transform属性后，它的后代元素的fixed都将失效。http://www.w3.org/TR/css3-transforms/#issue-ca2c412c。因此可以利用这个Bug模拟出一个相对于某个包含块fixed的效果。
