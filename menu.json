@@ -28,10 +28,6 @@
         "link": "klotski/release"
     },
     {
-        "name": "url",
-        "link": "url/demo"
-    },
-    {
         "name": "event emitter",
         "link": "event-emitter/demo"
     },
