@@ -70,5 +70,9 @@
     {
         "name": "wechat test page",
         "link": "wechat/web"
+    },
+    {
+        "name": "polygon painter",
+        "link": "polygon-painter/release"
     }
 ]
