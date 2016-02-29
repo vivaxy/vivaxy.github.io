@@ -50,15 +50,15 @@
         window.name
         window.postMessage
 
-- call apply bind的作用？
+- call apply bind 的作用？
 
         动态改变某个方法的运行环境
 
-- call apply bind的区别？
+- call apply bind 的区别？
 
         传参形式，call为多参数，apply为数组，bind不能传参
 
-- 创建javascript对象的方法
+- 创建 javascript 对象的方法
 
         var object = {};
         var object = new Object();
@@ -84,7 +84,7 @@
             // 此处省略若干代码
             a = 'abc';
         }
-        
+
 - 全局变量有什么风险，以及如何保护代码不受干扰？
 
         全局变量的危险之处在于其他人可以创建相同名称的变量，
@@ -120,10 +120,10 @@
 
         GET：一般用于信息获取，使用URL传递参数，对所发送信息的数量也有限制，一般在2000个字符
         POST：一般用于修改服务器上的资源，对所发送的信息没有限制。
-       
+
         GET方式需要使用Request.QueryString来取得变量的值，而POST方式通过Request.Form来获取变量的值，
         也就是说Get是通过地址栏来传值，而Post是通过提交表单来传值。
-       
+
         然而，在以下情况中，请使用 POST 请求：
         无法使用缓存文件（更新服务器上的文件或数据库）
         向服务器发送大量数据（POST 没有数据量限制）
@@ -137,7 +137,7 @@
         如果应聘者能够说明，
         在for/next循环中使用闭包却不声明变量来保存迭代变量当前值的一些风险，
         那就应该给对方加分。
-        
+
 - 闭包的特点
 
         函数嵌套函数
@@ -185,7 +185,7 @@
 
 - js保留字
 
-        abstract enum int short boolean export interface static byte extends long super char final native synchronized class float package throws const goto private transient debugger implements protected volatile double import public yield let 
+        abstract enum int short boolean export interface static byte extends long super char final native synchronized class float package throws const goto private transient debugger implements protected volatile double import public yield let
 
 - js关键字
 
@@ -202,7 +202,7 @@
 - `var name = function(){};`和`function name(){}`有什么区别？
 
         function变量提升
-        
+
 - js的基本数据类型
 
         number
@@ -210,7 +210,7 @@
         boolean
         object
         undefined
-        
+
 - new操作符具体干了什么呢
 
         创建一个空对象，并且 this 变量引用该对象，同时还继承了该函数的原型。
@@ -233,7 +233,6 @@
             因此构建在Node上的代理服务器相比其他技术实现（如Ruby）的服务器表现要好得多。
             此外，与Node代理服务器交互的客户端代码是由javascript语言编写的，
             因此客户端和服务器端都用同一种语言编写，这是非常美妙的事情。
-        
+
         （缺点）Node是一个相对新的开源项目，所以不太稳定，它总是一直在变，
             而且缺少足够多的第三方库支持。看起来，就像是Ruby/Rails当年的样子。
-            
