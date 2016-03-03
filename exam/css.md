@@ -87,13 +87,13 @@
 
 - 行内元素可以设置宽高吗？
 
-        不能，但是有一些特殊的行内元素，比如`img`，`input`，`select`
+        不能，但是有一些特殊的行内元素，比如 `img`，`input`，`select`
 
 - 如何清除浮动？
 
         增加标签 `<div style="clear: both;"></div>`
         增加标签 `<br clear="all">`
-        父容器div增加 `class="clearfix"`，使用::after伪元素清除浮动
+        父容器 div 增加 `class="clearfix"`，使用 ::after 伪元素清除浮动
         父容器设置样式 `overflow: hidden`
         父容器设置样式 `overflow: auto`
         父容器设置样式 `display: table`
