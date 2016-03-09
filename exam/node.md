@@ -16,10 +16,10 @@
 
 - node 中的事件循环是什么样子的
 
-        event loop其实就是一个事件队列，先加入先执行，执行完一次队列，再次循环遍历看有没有新事件加入队列．
+        event loop 其实就是一个事件队列，先加入先执行，执行完一次队列，再次循环遍历看有没有新事件加入队列．
         但是请务必注意，这一个事件队列的循环，一次只执行一个事件，然后下一次循环再执行一个事件．
-        这是由于javascript的单线程机制导致的，如果一次循环多个事件，就可能会阻塞其它代码的执行．
-        异步执行的叫IO events, setImmediate是在当前队列立即执行, setTimout/setInterval是把执行定时到到后面的队列，process.nextTick是在当前执行完，下次遍历前执行．
+        这是由于 javascript 的单线程机制导致的，如果一次循环多个事件，就可能会阻塞其它代码的执行．
+        异步执行的叫 IO events, setImmediate是在当前队列立即执行, setTimout/setInterval是把执行定时到到后面的队列，process.nextTick是在当前执行完，下次遍历前执行．
         所以总体顺序是: IO events >> setImmediate >> setTimeout/setInterval(注册事件) >> process.nextTick
 
 - node 中的 Buffer 如何应用
@@ -99,15 +99,15 @@
 
 - 实现一个简单的 http 服务器
 
-        经典又很没毛意义的一个题目．思路是加载http模块，创建服务器，监听端口.
+        经典又很没毛意义的一个题目．思路是加载 http 模块，创建服务器，监听端口.
 
 - 为什么需要 child-process
 
-        node是异步非阻塞的，这对高并发非常有效．可是我们还有其它一些常用需求，比如和操作系统shell命令交互，调用可执行文件，创建子进程进行阻塞式访问或高CPU计算等，child-process就是为满足这些需求而生的．child-process顾名思义，就是把node阻塞的工作交给子进程去做．
+        node 是异步非阻塞的，这对高并发非常有效．可是我们还有其它一些常用需求，比如和操作系统shell命令交互，调用可执行文件，创建子进程进行阻塞式访问或高CPU计算等，child-process就是为满足这些需求而生的．child-process顾名思义，就是把node阻塞的工作交给子进程去做．
 
 - exec, execFile, spawn 和 fork 都是做什么用的
 
-        exec可以用操作系统原生的方式执行各种命令，如管道 cat ab.txt | grep hello; execFile是执行一个文件; spawn是流式和操作系统进行交互; fork是两个node程序(javascript)之间时行交互.
+        exec 可以用操作系统原生的方式执行各种命令，如管道 cat ab.txt | grep hello; execFile是执行一个文件; spawn是流式和操作系统进行交互; fork是两个node程序(javascript)之间时行交互.
 
 - 两个 node 程序之间怎样交互
 
@@ -115,9 +115,9 @@
 
 - 怎样让一个 js 文件变得像 linux 命令一样可执行
 
-        在myCommand.js文件头部加入 #!/usr/bin/env node
-        chmod命令把js文件改为可执行即可
-        进入文件目录，命令行输入myComand就是相当于node myComand.js了
+        在 myCommand.js 文件头部加入 #!/usr/bin/env node
+        chmod 命令把 js 文件改为可执行即可
+        进入文件目录，命令行输入 myComand 就是相当于 node myComand.js 了
 
 - child-process 和 process 的 stdin, stdout, stderror 是一样的吗
 
@@ -125,19 +125,19 @@
 
 - node 中的异步和同步怎么理解
 
-        node是单线程的，异步是通过一次次的循环事件队列来实现的．同步则是说阻塞式的IO,这在高并发环境会是一个很大的性能问题，所以同步一般只在基础框架的启动时使用，用来加载配置文件，初始化程序什么的．
+        node 是单线程的，异步是通过一次次的循环事件队列来实现的．同步则是说阻塞式的IO,这在高并发环境会是一个很大的性能问题，所以同步一般只在基础框架的启动时使用，用来加载配置文件，初始化程序什么的．
 
 - 有哪些方法可以进行异步流程的控制
 
         多层嵌套回调
         为每一个回调写单独的函数，函数里边再回调
-        用第三方框架比方async, q, promise等
+        用第三方框架比方 async, q, promise 等
 
 - 怎样绑定 node 程序到 80 端口
 
         sudo
         apache/nginx代理
-        用操作系统的firewall iptables进行端口重定向
+        用操作系统的 firewall iptables 进行端口重定向
 
 - 有哪些方法可以让 node 程序遇到错误后自动重启
 
@@ -156,15 +156,15 @@
 - 程序总是崩溃，怎样找出问题在哪里
 
         node --prof 查看哪些函数调用次数多
-        memwatch和heapdump获得内存快照进行对比，查找内存溢出
+        memwatch 和 heapdump 获得内存快照进行对比，查找内存溢出
 
 - 有哪些常用方法可以防止程序崩溃
 
         try-catch-finally
-        EventEmitter/Stream error事件处理
-        domain统一控制
-        jshint静态检查
-        jasmine/mocha进行单元测试
+        EventEmitter/Stream error 事件处理
+        domain 统一控制
+        jshint 静态检查
+        jasmine/mocha 进行单元测试
 
 - 怎样调试 node 程序
 
