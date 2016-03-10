@@ -53,7 +53,7 @@
 - `position` 的值有哪些？
 
         absolute 生成绝对定位的元素，相对于 static 定位以外的第一个祖先元素进行定位。
-        fixed （老IE不支持）生成绝对定位的元素，相对于浏览器窗口进行定位。
+        fixed （老 ie 不支持）生成绝对定位的元素，相对于浏览器窗口进行定位。
         relative 生成相对定位的元素，相对于其在普通流中的位置进行定位。
         static 默认值。没有定位，元素出现在正常的流中。
         inherit 规定从父元素继承 position 属性的值。
@@ -132,7 +132,7 @@
 
         已知宽高，负 margin, left: 50%, top: 50%;
 
-- 清除浮动有N种方式，他们间有什么共同点吗？
+- 清除浮动有 n 种方式，他们间有什么共同点吗？
 
         clear:both 法和构造 BFC 法
 
@@ -165,3 +165,5 @@
 - 可以让一个 `position: fixed` 的元素相对于一个容器定位而非浏览器视口吗？
 
         当一个元素应用了 css3 的 transform 属性后，它的后代元素的 fixed 都将失效。 http://www.w3.org/TR/css3-transforms/#issue-ca2c412c 。因此可以利用这个 Bug 模拟出一个相对于某个包含块 fixed 的效果。
+
+- css3 动画
