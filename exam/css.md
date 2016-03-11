@@ -138,7 +138,7 @@
 
 - 什么是 BFC ？
 
-        Block formatting contexts(BFC)，块级格式化上下文是在 css2.1 中提出的一个概念，在布局中， BFC 自成体系，对自己内部的元素负责，不会与浮动元素重叠，相邻 BFC 上下 margin 也不会重叠。所以我们会通过构造一个 BFC 来防止 margin 重叠，清除浮动或者实现一个双栏布局。
+        Block formatting contexts (BFC)，块级格式化上下文是在 css2.1 中提出的一个概念，在布局中， BFC 自成体系，对自己内部的元素负责，不会与浮动元素重叠，相邻 BFC 上下 margin 也不会重叠。所以我们会通过构造一个 BFC 来防止 margin 重叠，清除浮动或者实现一个双栏布局。
         需要特别注意的是，在 IE6，7 下没有 BFC 这个概念，但是有一个与 BFC 性质相似的概念：layout。在 IE6 ，7 中遇到的很多 bug 都可以通过让元素 has layout 来解决，比如浮动 margin 双边距，躲猫猫， 3 像素间距等等。
 
 - 如何构造 BFC ？
