@@ -42,6 +42,7 @@
 
         localstorge
         cookie
+        url
 
 - 如何解决跨域问题？
 

@@ -79,11 +79,11 @@
 
 - css sprites 的实现机制
 
-        css Sprites其实就是把网页中一些背景图片整合到一张图片文件中，再利用 css 的 “background-image” ， “background-repeat” ， “background-position” 的组合进行背景定位， background-position 可以用数字能精确的定位出背景图片的位置。这样可以减少很多图片请求的开销，因为请求耗时比较长；请求虽然可以并发，但是也有限制，一般浏览器都是 6 个。对于未来而言，就不需要这样做了，因为有了 `http2`。
+        css sprites 其实就是把网页中一些背景图片整合到一张图片文件中，再利用 css 的 “background-image” ， “background-repeat” ， “background-position” 的组合进行背景定位， background-position 可以用数字能精确的定位出背景图片的位置。这样可以减少很多图片请求的开销，因为请求耗时比较长；请求虽然可以并发，但是也有限制，一般浏览器都是 6 个。对于未来而言，就不需要这样做了，因为有了 `http2`。
 
 - 响应式布局如何实现？
 
-        media标签
+        media 标签
 
 - 行内元素可以设置宽高吗？
 
