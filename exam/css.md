@@ -118,7 +118,7 @@
 - css3 有哪些新特性
 
         css3实现圆角（border-radius: 8px），阴影（box-shadow: 10px），
-        对文字加特效（text-shadow、），线性渐变（gradient），旋转（transform）
+        对文字加特效（text-shadow），线性渐变（gradient），旋转（transform）
         transform: rotate(9deg) scale(0.85, 0.90) translate(0px, -30px) skew(-9deg, 0deg); // 旋转, 缩放, 定位, 倾斜
         增加了更多的css选择器  多背景 rgba
 
@@ -134,18 +134,18 @@
 
 - 清除浮动有 n 种方式，他们间有什么共同点吗？
 
-        clear:both 法和构造 BFC 法
+        clear: both 法和构造 BFC 法
 
 - 什么是 BFC ？
 
         Block formatting contexts (BFC)，块级格式化上下文是在 css2.1 中提出的一个概念，在布局中， BFC 自成体系，对自己内部的元素负责，不会与浮动元素重叠，相邻 BFC 上下 margin 也不会重叠。所以我们会通过构造一个 BFC 来防止 margin 重叠，清除浮动或者实现一个双栏布局。
-        需要特别注意的是，在 ie6，7 下没有 BFC 这个概念，但是有一个与 BFC 性质相似的概念：layout。在 IE6 ，7 中遇到的很多 bug 都可以通过让元素 has layout 来解决，比如浮动 margin 双边距，躲猫猫， 3 像素间距等等。
+        需要特别注意的是，在 ie6, 7 下没有 BFC 这个概念，但是有一个与 BFC 性质相似的概念：layout。在 IE6, 7 中遇到的很多 bug 都可以通过让元素 has layout 来解决，比如浮动 margin 双边距，躲猫猫， 3 像素间距等等。
 
 - 如何构造 BFC ？
 
         float 设置为非 none 值
         overflow 设置为非 visible
-        display 设置为 table-cell，table-caption，inline-block
+        display 设置为 table-cell, table-caption, inline-block
         position 设置为 `absolute` 或 `fixed`
 
 - 兼容老版本 ie 的几种方式
@@ -160,7 +160,7 @@
 
 - 如何用 `margin: auto` 实现垂直居中？
 
-        当书写模式为纵向时， margin：auto 垂直方向是可以居中的
+        当书写模式为纵向时，margin: auto 垂直方向是可以居中的
 
 - 可以让一个 `position: fixed` 的元素相对于一个容器定位而非浏览器视口吗？
 
