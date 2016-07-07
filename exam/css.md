@@ -14,8 +14,8 @@
         相邻选择器（h1 + p）
         子选择器（ul > li）
         后代选择器（li a）
-        通配符选择器（ * ）
-        属性选择器（a[rel = "external"]）
+        通配符选择器（*）
+        属性选择器 (a[rel="external"]）
         伪类选择器（a:hover, li:nth-child）
 
 - css 哪些属性可以继承
