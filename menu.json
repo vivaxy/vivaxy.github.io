@@ -1,78 +1,78 @@
 [
     {
         "name": "blog",
-        "link": "//vivaxyblog.github.io"
+        "link": "//vivaxyblog.github.io/"
     },
     {
         "name": "design",
-        "link": "design"
+        "link": "/design/"
     },
     {
         "name": "course",
-        "link": "course"
+        "link": "/course/"
     },
     {
         "name": "game",
-        "link": "game"
+        "link": "/game/"
     },
     {
         "name": "qrcode chrome",
-        "link": "qrcode-chrome"
+        "link": "/qrcode-chrome/"
     },
     {
         "name": "Eliminate",
-        "link": "eliminate/release"
+        "link": "/eliminate/release/"
     },
     {
         "name": "Klotski",
-        "link": "klotski/release"
+        "link": "/klotski/release/"
     },
     {
         "name": "event emitter",
-        "link": "event-emitter/demo"
+        "link": "/event-emitter/demo/"
     },
     {
         "name": "tween",
-        "link": "tween/demo"
+        "link": "/tween/demo/"
     },
     {
         "name": "dom",
-        "link": "dom/demo"
+        "link": "/dom/demo/"
     },
     {
         "name": "ajax",
-        "link": "ajax/demo"
+        "link": "/ajax/demo/"
     },
     {
         "name": "jsonp",
-        "link": "jsonp/demo"
+        "link": "/jsonp/demo/"
     },
     {
         "name": "pjax",
-        "link": "pjax/demo/page1"
+        "link": "/pjax/demo/page1/"
     },
     {
         "name": "console to dom",
-        "link": "console-to-dom/demo"
+        "link": "/console-to-dom/demo/"
     },
     {
         "name": "JiuGongGe",
-        "link": "jiugongge"
+        "link": "/jiugongge/"
     },
     {
         "name": "draw math function",
-        "link": "draw-math-function"
+        "link": "/draw-math-function/"
     },
     {
         "name": "AllAccounted",
-        "link": "AllAccounted"
+        "link": "/AllAccounted/"
     },
     {
         "name": "wechat test page",
-        "link": "wechat/web"
+        "link": "/wechat/web/"
     },
     {
         "name": "polygon painter",
-        "link": "polygon-painter/release"
+        "link": "/polygon-painter/release/"
     }
 ]
