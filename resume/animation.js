@@ -1,5 +1,6 @@
-var url = new Url();
-var style = url.parameter('style') || 'opacity';
+var url = new URL(loaction.href, location.href);
+var urlSearchParams = url.searchParams;
+var style = urlSearchParams.get('style') || 'opacity';
 
 Array.prototype.slice.call(document.querySelectorAll('.card')).forEach(function(card, index) {
     card.classList.remove('hide');
