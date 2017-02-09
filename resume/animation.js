@@ -1,4 +1,4 @@
-var url = new URL(loaction.href, location.href);
+var url = new URL(location.href, location.href);
 var urlSearchParams = url.searchParams;
 var style = urlSearchParams.get('style') || 'opacity';
 
