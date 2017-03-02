@@ -37,20 +37,21 @@ window.addEventListener('error', function (e) {
     var owner = 'vivaxy';
     var repo = 'vivaxy.github.io';
     var number = 1;
-    var token = '0f8ecf38612266db610a6b55587b94308ec14669'.split('').reverse().join('');
-    var windowScreen = window.screen;
+    var token = 'c1c31b9b66a9e409569c473cb91f80ff3afa9304'.split('').reverse().join('');
+    var window$screen = window.screen;
+    var window$screen$orientation = window$screen.orientation || {};
     var screen = {
-        'height': windowScreen.height,
-        'width': windowScreen.width,
-        'avail-height': windowScreen.availHeight,
-        'avail-width': windowScreen.availWidth,
-        'avail-top': windowScreen.availTop,
-        'avail-left': windowScreen.availLeft,
-        'color-depth': windowScreen.colorDepth,
-        'pixel-depth': windowScreen.pixelDepth,
+        'height': window$screen.height,
+        'width': window$screen.width,
+        'avail-height': window$screen.availHeight,
+        'avail-width': window$screen.availWidth,
+        'avail-top': window$screen.availTop,
+        'avail-left': window$screen.availLeft,
+        'color-depth': window$screen.colorDepth,
+        'pixel-depth': window$screen.pixelDepth,
         'orientation': {
-            'angle': windowScreen.orientation.angle,
-            'type': windowScreen.orientation.type
+            'angle': window$screen$orientation.angle,
+            'type': window$screen$orientation.type
         }
     };
     var xhr = new XMLHttpRequest();
