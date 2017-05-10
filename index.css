@@ -72,7 +72,9 @@ body {
 a, a:visited {
     display: block;
     -webkit-tap-highlight-color: transparent;
-    height: 48px;
+    height: 60px;
+    line-height: 60px;
+    text-indent: 48px;
     width: 100%;
     text-decoration: none;
     background-color: #fff;
@@ -80,23 +82,9 @@ a, a:visited {
     overflow: hidden;
     position: relative;
     -webkit-user-select: none;
-}
-
-a span {
-    display: block;
-    height: 32px;
-    width: 100%;
-    line-height: 32px;
     font-size: 16px;
     font-weight: 100;
     color: #333;
-    margin: 8px 0 8px 48px;
-    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    transition: all 0.4s cubic-bezier(0.2, 1, 0.3, 1);
 }
