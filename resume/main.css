@@ -1,116 +1,116 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: rgb(230, 230, 230);
-    font-family: Palatino Linotype, pala, serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(230, 230, 230);
+  font-family: Palatino Linotype, pala, serif;
 }
 
 .resume {
-    width: 600px;
-    margin: 0 auto;
-    transition: width 0.5s;
-    -webkit-transition: width 0.5s;
-    perspective: 1000px;
-    -webkit-perspective: 1000px;
+  width: 600px;
+  margin: 0 auto;
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
 }
 
 .card {
-    margin: 10px 0;
-    padding: 20px 20px 20px 20px;
-    background: rgb(255, 255, 255);
-    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-    font-size: 18px;
-    font-weight: bold;
-    transition: opacity 0.5s, transform 0.5s;
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  margin: 10px 0;
+  padding: 20px 20px 20px 20px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+  font-size: 18px;
+  font-weight: bold;
+  transition: opacity 0.5s, transform 0.5s;
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
 }
 
 .opacity {
-    opacity: 0;
+  opacity: 0;
 }
 
 .transform {
-    transform: rotateX(-90deg) translate3d(0, 100%, 0);
-    -webkit-transform: rotateX(-90deg) translate3d(0, 100%, 0);
+  transform: rotateX(-90deg) translate3d(0, 100%, 0);
+  -webkit-transform: rotateX(-90deg) translate3d(0, 100%, 0);
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .card::after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: ' ';
-    clear: both;
-    height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 10px 0 10px 20px;
-    border-top: 1px solid rgba(100, 100, 100, 0.3);
-    font-size: 16px;
+  margin: 0;
+  padding: 10px 0 10px 20px;
+  border-top: 1px solid rgba(100, 100, 100, 0.3);
+  font-size: 16px;
 }
 
 li {
-    margin: 0 0 0 20px;
-    font-size: 15px;
-    font-weight: normal;
-    list-style: disc;
+  margin: 0 0 0 20px;
+  font-size: 15px;
+  font-weight: normal;
+  list-style: disc;
 }
 
 .name {
-    float: left;
-    font-size: 32px;
+  float: left;
+  font-size: 32px;
 }
 
 .contact {
-    text-align: right;
-    float: right;
-    font-size: 16px;
-    font-weight: normal;
+  text-align: right;
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .photo {
-    float: left;
-    width: 40px;
-    height: 40px;
-    background: url(../vivaxy.icon.png) no-repeat;
-    background-size: 100%;
-    margin: 0 20px 0 0;
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(../vivaxy.icon.png) no-repeat;
+  background-size: 100%;
+  margin: 0 20px 0 0;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(231, 76, 60);
-    transition: color 0.5s;
+  text-decoration: none;
+  color: rgb(231, 76, 60);
+  transition: color 0.5s;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 *::selection {
-    background: rgb(231, 76, 60);
-    color: rgb(255, 255, 255);
+  background: rgb(231, 76, 60);
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 600px) {
-    .resume {
-        width: 100%;
-    }
+  .resume {
+    width: 100%;
+  }
 }
 
 @font-face {
-    font-family: pala;
-    src: url(pala.ttf);
-    font-weight: normal;
+  font-family: pala;
+  src: url(pala.ttf);
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: pala;
-    src: url(palab.ttf);
-    font-weight: bold;
+  font-family: pala;
+  src: url(palab.ttf);
+  font-weight: bold;
 }

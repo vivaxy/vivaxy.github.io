@@ -3,88 +3,88 @@
  * @author vivaxy
  */
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body, button, input, select, textarea {
-    font: 12px/1.5 STHeiti, 'Microsoft YaHei', tahoma, arial, \5b8b\4f53;
+  font: 12px/1.5 STHeiti, 'Microsoft YaHei', tahoma, arial, \5b8b\4f53;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 address, cite, dfn, em, var {
-    font-style: normal;
+  font-style: normal;
 }
 
 code, kbd, pre, samp {
-    font-family: couriernew, courier, monospace;
+  font-family: couriernew, courier, monospace;
 }
 
 small {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 ul, ol {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 sup {
-    vertical-align: text-top;
+  vertical-align: text-top;
 }
 
 sub {
-    vertical-align: text-bottom;
+  vertical-align: text-bottom;
 }
 
 legend {
-    color: #000;
+  color: #000;
 }
 
 fieldset, img {
-    border: 0;
+  border: 0;
 }
 
 button, input, select, textarea {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* end of css reset*/
 body {
-    background: #eee;
+  background: #eee;
 }
 
 a, a:visited {
-    display: block;
-    -webkit-tap-highlight-color: transparent;
-    height: 60px;
-    line-height: 60px;
-    text-indent: 48px;
-    width: 100%;
-    text-decoration: none;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    overflow: hidden;
-    position: relative;
-    -webkit-user-select: none;
-    font-size: 16px;
-    font-weight: 100;
-    color: #333;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  display: block;
+  -webkit-tap-highlight-color: transparent;
+  height: 60px;
+  line-height: 60px;
+  text-indent: 48px;
+  width: 100%;
+  text-decoration: none;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  font-size: 16px;
+  font-weight: 100;
+  color: #333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
