@@ -5,47 +5,19 @@
   },
   {
     "name": "Design",
-    "link": "/design/index.html"
+    "link": "design/index.html"
   },
   {
     "name": "Course",
-    "link": "/course/index.html"
+    "link": "course/index.html"
   },
   {
     "name": "Game",
-    "link": "/game/index.html"
+    "link": "game/index.html"
   },
   {
     "name": "QRCode Chrome",
-    "link": "/qrcode-chrome/index.html"
-  },
-  {
-    "name": "Event Emitter",
-    "link": "event-emitter/demo/index.html"
-  },
-  {
-    "name": "Tween",
-    "link": "tween/demo/index.html"
-  },
-  {
-    "name": "Dom",
-    "link": "dom/demo/index.html"
-  },
-  {
-    "name": "Ajax",
-    "link": "ajax/demo/index.html"
-  },
-  {
-    "name": "Jsonp",
-    "link": "jsonp/demo/index.html"
-  },
-  {
-    "name": "Pjax",
-    "link": "pjax/demo/page1/index.html"
-  },
-  {
-    "name": "Console to Dom",
-    "link": "console-to-dom/demo/index.html"
+    "link": "qrcode-chrome/index.html"
   },
   {
     "name": "Draw Math Function",
@@ -54,10 +26,6 @@
   {
     "name": "AllAccounted",
     "link": "AllAccounted/index.html"
-  },
-  {
-    "name": "Wechat Test Page",
-    "link": "wechat/web/index.html"
   },
   {
     "name": "Polygon Painter",
