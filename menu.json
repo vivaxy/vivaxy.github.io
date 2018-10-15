@@ -1,78 +1,66 @@
 [
   {
     "name": "Blog",
-    "link": "//vivaxyblog.github.io/"
+    "link": "//vivaxyblog.github.io/index.html"
   },
   {
     "name": "Design",
-    "link": "/design/"
+    "link": "/design/index.html"
   },
   {
     "name": "Course",
-    "link": "/course/"
+    "link": "/course/index.html"
   },
   {
     "name": "Game",
-    "link": "/game/"
+    "link": "/game/index.html"
   },
   {
     "name": "QRCode Chrome",
-    "link": "/qrcode-chrome/"
-  },
-  {
-    "name": "Eliminate",
-    "link": "/eliminate/release/"
-  },
-  {
-    "name": "Klotski",
-    "link": "/klotski/release/"
+    "link": "/qrcode-chrome/index.html"
   },
   {
     "name": "Event Emitter",
-    "link": "event-emitter/demo/"
+    "link": "event-emitter/demo/index.html"
   },
   {
     "name": "Tween",
-    "link": "tween/demo/"
+    "link": "tween/demo/index.html"
   },
   {
     "name": "Dom",
-    "link": "dom/demo/"
+    "link": "dom/demo/index.html"
   },
   {
     "name": "Ajax",
-    "link": "ajax/demo/"
+    "link": "ajax/demo/index.html"
   },
   {
     "name": "Jsonp",
-    "link": "jsonp/demo/"
+    "link": "jsonp/demo/index.html"
   },
   {
     "name": "Pjax",
-    "link": "pjax/demo/page1/"
+    "link": "pjax/demo/page1/index.html"
   },
   {
     "name": "Console to Dom",
-    "link": "console-to-dom/demo/"
-  },
-  {
-    "name": "JiuGongGe",
-    "link": "jiugongge/"
+    "link": "console-to-dom/demo/index.html"
   },
   {
     "name": "Draw Math Function",
-    "link": "draw-math-function/"
+    "link": "draw-math-function/index.html"
   },
   {
     "name": "AllAccounted",
-    "link": "AllAccounted/"
+    "link": "AllAccounted/index.html"
   },
   {
     "name": "Wechat Test Page",
-    "link": "wechat/web/"
+    "link": "wechat/web/index.html"
   },
   {
     "name": "Polygon Painter",
-    "link": "polygon-painter/release/"
+    "link": "polygon-painter/release/index.html"
   }
 ]
