@@ -83,7 +83,6 @@ a, a:visited {
   position: relative;
   -webkit-user-select: none;
   font-size: 16px;
-  font-weight: 100;
   color: #333;
   text-overflow: ellipsis;
   white-space: nowrap;
