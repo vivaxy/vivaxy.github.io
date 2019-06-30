@@ -1,7 +1,7 @@
 {
   "name": "vivaxy.github.io",
   "version": "1.0.0",
-  "description": "personal index page",
+  "description": "Personal index page",
   "repository": {
     "type": "git",
     "url": "https://github.com/vivaxy/vivaxy.github.io.git"
@@ -14,5 +14,24 @@
   "bugs": {
     "url": "https://github.com/vivaxy/vivaxy.github.io/issues"
   },
-  "homepage": "https://github.com/vivaxy/vivaxy.github.io"
+  "homepage": "https://github.com/vivaxy/vivaxy.github.io",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,css,less,json,md,html,yml,yaml,pcss,jsx,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2"
+  }
 }
