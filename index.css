@@ -2,24 +2,64 @@
  * @since 150501 16:13
  * @author vivaxy
  */
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
   margin: 0;
   padding: 0;
 }
 
-body, button, input, select, textarea {
-  font: 12px/1.5 STHeiti, 'Microsoft YaHei', tahoma, arial, \5b8b\4f53;
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 STHeiti, "Microsoft YaHei", tahoma, arial, \5b8b\4f53;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 100%;
 }
 
-address, cite, dfn, em, var {
+address,
+cite,
+dfn,
+em,
+var {
   font-style: normal;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: couriernew, courier, monospace;
 }
 
@@ -27,7 +67,8 @@ small {
   font-size: 12px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -51,11 +92,15 @@ legend {
   color: #000;
 }
 
-fieldset, img {
+fieldset,
+img {
   border: 0;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-size: 100%;
 }
 
@@ -69,7 +114,8 @@ body {
   background: #eee;
 }
 
-a, a:visited {
+a,
+a:visited {
   display: block;
   -webkit-tap-highlight-color: transparent;
   height: 60px;
@@ -86,4 +132,16 @@ a, a:visited {
   color: #333;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111;
+  }
+  a,
+  a:visited {
+    background-color: #333;
+    color: #ddd;
+    border-bottom: 1px solid #222;
+  }
 }
