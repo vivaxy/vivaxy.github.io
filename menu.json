@@ -14,21 +14,5 @@
   {
     "name": "Game",
     "link": "game/index.html"
-  },
-  {
-    "name": "QRCode Chrome",
-    "link": "qrcode-chrome/index.html"
-  },
-  {
-    "name": "Draw Math Function",
-    "link": "draw-math-function/index.html"
-  },
-  {
-    "name": "AllAccounted",
-    "link": "AllAccounted/index.html"
-  },
-  {
-    "name": "Polygon Painter",
-    "link": "polygon-painter/release/index.html"
   }
 ]
