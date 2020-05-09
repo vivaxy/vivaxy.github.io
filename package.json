@@ -28,10 +28,10 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
-    "husky": "^2.7.0",
-    "lint-staged": "^8.2.1",
-    "prettier": "^1.18.2"
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "husky": "2.7.0",
+    "lint-staged": "8.2.1",
+    "prettier": "1.18.2"
   }
 }
