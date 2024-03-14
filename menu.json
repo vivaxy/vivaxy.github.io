@@ -1,5 +1,9 @@
 [
   {
+    "name": "DevTools",
+    "link": "dev"
+  },
+  {
     "name": "Blog",
     "link": "//vivaxyblog.github.io/index.html"
   },
